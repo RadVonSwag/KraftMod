@@ -166,6 +166,14 @@
       "ids": {}
     },
     {
+      "name": "Nujabes",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
       "name": "CreatingAJar",
       "type": "recipe",
       "sortid": 17,
@@ -198,12 +206,28 @@
       "ids": {}
     },
     {
-      "name": "Nujabes",
-      "type": "musicdisc",
+      "name": "CumJar",
+      "type": "food",
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Cumming",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -216,12 +240,12 @@
   ],
   "language_map": {
     "en_us": {
-      "item.nujabes.name": "Luv-Sic Pt. 5",
+      "item.nujabes.name": "Nujabes",
       "item.kraftcheese.name": "Kraft Cheese",
       "fluid.milk": "Milk",
       "tile.cheeseblock.name": "Cheese Block",
+      "item.cumjar.name": "Cum Jar",
       "item.niggerzbop.name": "Niggerz Bop",
-      "item.record.nujabes.desc": "\"Everything is Quiet\"",
       "item.amiiboinajar.name": "Amiibo In A Jar",
       "tile.cheesystone.name": "Cheesy Stone",
       "item.emptyjar.name": "Empty Jar",
