@@ -164,6 +164,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Nujabes",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -176,6 +184,7 @@
   ],
   "language_map": {
     "en_us": {
+      "item.nujabes.name": "Nujabes",
       "item.kraftcheese.name": "Kraft Cheese",
       "tile.cheeseblock.name": "Cheese Block",
       "fluid.milk": "Milk",
