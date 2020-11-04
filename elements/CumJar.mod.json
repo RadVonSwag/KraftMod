@@ -1,0 +1,21 @@
+{
+  "_fv": 6,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "ummy_ummies",
+    "customModelName": "Normal",
+    "name": "Cum Jar",
+    "creativeTab": {
+      "value": "CUSTOM:KraftSingles"
+    },
+    "stackSize": 1,
+    "nutritionalValue": -8,
+    "saturation": 0.0,
+    "eatingSpeed": 32,
+    "forDogs": true,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": false
+  }
+}

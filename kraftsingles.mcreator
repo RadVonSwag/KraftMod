@@ -204,6 +204,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "CumJar",
+      "type": "food",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -220,6 +228,7 @@
       "item.kraftcheese.name": "Kraft Cheese",
       "fluid.milk": "Milk",
       "tile.cheeseblock.name": "Cheese Block",
+      "item.cumjar.name": "Cum Jar",
       "item.niggerzbop.name": "Niggerz Bop",
       "item.amiiboinajar.name": "Amiibo In A Jar",
       "tile.cheesystone.name": "Cheesy Stone",
