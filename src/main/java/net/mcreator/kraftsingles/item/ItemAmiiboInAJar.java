@@ -16,11 +16,11 @@ import net.mcreator.kraftsingles.creativetab.TabKraftSingles;
 import net.mcreator.kraftsingles.ElementsKraftSingles;
 
 @ElementsKraftSingles.ModElement.Tag
-public class ItemEmptyJar extends ElementsKraftSingles.ModElement {
-	@GameRegistry.ObjectHolder("kraftsingles:emptyjar")
+public class ItemAmiiboInAJar extends ElementsKraftSingles.ModElement {
+	@GameRegistry.ObjectHolder("kraftsingles:amiiboinajar")
 	public static final Item block = null;
-	public ItemEmptyJar(ElementsKraftSingles instance) {
-		super(instance, 14);
+	public ItemAmiiboInAJar(ElementsKraftSingles instance) {
+		super(instance, 19);
 	}
 
 	@Override
@@ -31,14 +31,14 @@ public class ItemEmptyJar extends ElementsKraftSingles.ModElement {
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("kraftsingles:emptyjar", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("kraftsingles:amiiboinajar", "inventory"));
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			setMaxDamage(0);
-			maxStackSize = 16;
-			setUnlocalizedName("emptyjar");
-			setRegistryName("emptyjar");
+			maxStackSize = 1;
+			setUnlocalizedName("amiiboinajar");
+			setRegistryName("amiiboinajar");
 			setCreativeTab(TabKraftSingles.tab);
 		}
 

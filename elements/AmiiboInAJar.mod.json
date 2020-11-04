@@ -3,13 +3,13 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "mpty_ar",
+    "texture": "miibo_ottle",
     "customModelName": "Normal",
-    "name": "Empty Jar",
+    "name": "Amiibo In A Jar",
     "creativeTab": {
       "value": "CUSTOM:KraftSingles"
     },
-    "stackSize": 16,
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
