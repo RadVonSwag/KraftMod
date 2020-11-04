@@ -3,7 +3,7 @@ package net.mcreator.kraftsingles.procedure;
 import net.minecraftforge.items.ItemHandlerHelper;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import net.minecraftforge.event.entity.player.PlayerSleepInBedEvent;
+import net.minecraftforge.event.entity.player.PlayerWakeUpEvent;
 import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraft.world.World;
@@ -46,12 +46,12 @@ public class ProcedureCumming extends ElementsKraftSingles.ModElement {
 	}
 
 	@SubscribeEvent
-	public void onPlayerInBed(PlayerSleepInBedEvent event) {
-		EntityPlayer entity = event.getEntityPlayer();
-		int i = event.getPos().getX();
-		int j = event.getPos().getY();
-		int k = event.getPos().getZ();
+	public void onEntityEndSleep(PlayerWakeUpEvent event) {
+		Entity entity = event.getEntity();
 		World world = entity.world;
+		int i = (int) entity.posX;
+		int j = (int) entity.posY;
+		int k = (int) entity.posZ;
 		java.util.HashMap<String, Object> dependencies = new java.util.HashMap<>();
 		dependencies.put("x", i);
 		dependencies.put("y", j);

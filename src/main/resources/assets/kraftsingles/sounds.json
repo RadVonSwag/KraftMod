@@ -25,5 +25,14 @@
         "stream": true
       }
     ]
+  },
+  "nujabespt5": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kraftsingles:ujabes_-_uvsic_part_5_feat_hing02",
+        "stream": false
+      }
+    ]
   }
 }

@@ -166,14 +166,6 @@
       "ids": {}
     },
     {
-      "name": "Nujabes",
-      "type": "item",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "CreatingAJar",
       "type": "recipe",
       "sortid": 17,
@@ -296,6 +288,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "Nujabes",
+      "type": "musicdisc",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -314,18 +314,24 @@
       "name": "cursedsounds",
       "file": "isc-11ursed",
       "category": "record"
+    },
+    {
+      "name": "nujabespt5",
+      "file": "ujabes_-_uvsic_part_5_feat_hing02",
+      "category": "master"
     }
   ],
   "language_map": {
     "en_us": {
-      "item.nujabes.name": "Nujabes",
       "advancements.shinypokemon.title": "Shiny Pokemon",
+      "item.nujabes.name": "Nujabes",
       "item.kraftcheese.name": "Kraft Cheese",
       "fluid.milk": "Milk",
       "tile.cheeseblock.name": "Cheese Block",
       "item.cumjar.name": "Cum Jar",
       "item.niggerzbop.name": "Niggerz Bop",
       "item.record.curseddisc.desc": "Evil Powers",
+      "item.record.nujabes.desc": "Luv-sic Pt. 5",
       "item.amiiboinajar.name": "Amiibo In A Jar",
       "tile.cheesystone.name": "Cheesy Stone",
       "item.emptyjar.name": "Empty Jar",
