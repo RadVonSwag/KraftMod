@@ -44,7 +44,12 @@ public class ItemCumJar extends ElementsKraftSingles.ModElement {
 			setRegistryName("cumjar");
 			setAlwaysEdible();
 			setCreativeTab(TabKraftSingles.tab);
-			setMaxStackSize(1);
+			setMaxStackSize(8);
+		}
+
+		@Override
+		public int getMaxItemUseDuration(ItemStack stack) {
+			return 48;
 		}
 
 		@Override
