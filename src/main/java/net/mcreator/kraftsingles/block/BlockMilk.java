@@ -42,9 +42,8 @@ public class BlockMilk extends ElementsKraftSingles.ModElement {
 	private Fluid fluid;
 	public BlockMilk(ElementsKraftSingles instance) {
 		super(instance, 5);
-		fluid = new Fluid("milk", new ResourceLocation("kraftsingles:blocks/wool_colored_white"),
-				new ResourceLocation("kraftsingles:blocks/wool_colored_white")).setLuminosity(0).setDensity(1000).setViscosity(1000)
-						.setGaseous(false);
+		fluid = new Fluid("milk", new ResourceLocation("kraftsingles:blocks/milkstill"), new ResourceLocation("kraftsingles:blocks/milkflowing"))
+				.setLuminosity(0).setDensity(1000).setViscosity(1000).setGaseous(false);
 	}
 
 	@Override
