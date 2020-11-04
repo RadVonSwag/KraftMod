@@ -18,7 +18,7 @@
     },
     "texture": "cheesycheese",
     "portalTexture": "tempcheese",
-    "enablePortal": true,
+    "enablePortal": false,
     "biomesInDimension": [
       {
         "value": "CUSTOM:CheeseLands"
@@ -38,7 +38,7 @@
       "value": "CUSTOM:Milk"
     },
     "airColor": {
-      "value": -16777216,
+      "value": -256,
       "falpha": 0.0
     },
     "canRespawnHere": false,
@@ -48,7 +48,7 @@
     "doesWaterVaporize": false,
     "sleepResult": "BED_EXPLODES",
     "hasSkyLight": true,
-    "imitateOverworldBehaviour": true,
+    "imitateOverworldBehaviour": false,
     "dimensionMusic": {
       "value": ""
     }

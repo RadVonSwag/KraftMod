@@ -272,6 +272,30 @@
           }
         ]
       }
+    },
+    {
+      "name": "CursedDisc",
+      "type": "musicdisc",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CursedDiscRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -285,6 +309,11 @@
       "name": "cheesewarp",
       "file": "cheesy",
       "category": "master"
+    },
+    {
+      "name": "cursedsounds",
+      "file": "isc-11ursed",
+      "category": "record"
     }
   ],
   "language_map": {
@@ -296,6 +325,7 @@
       "tile.cheeseblock.name": "Cheese Block",
       "item.cumjar.name": "Cum Jar",
       "item.niggerzbop.name": "Niggerz Bop",
+      "item.record.curseddisc.desc": "Evil Powers",
       "item.amiiboinajar.name": "Amiibo In A Jar",
       "tile.cheesystone.name": "Cheesy Stone",
       "item.emptyjar.name": "Empty Jar",
@@ -303,6 +333,7 @@
       "itemGroup.tabkraftsingles": "Kraft Singles",
       "tile.cheesyore.name": "Cheesy Ore",
       "item.milkslime.name": "Milk Slime",
+      "item.curseddisc.name": "Cursed Disc",
       "item.unrefinedcheese.name": "Unrefined Cheese",
       "advancements.shinypokemon.descr": "Get the 1 in 8192 chance cum load",
       "tile.cheeserock.name": "Cheese Rock",

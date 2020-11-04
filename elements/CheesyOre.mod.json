@@ -31,7 +31,7 @@
     "destroyTool": "Not specified",
     "affectedBySilkTouch": true,
     "customDrop": {
-      "value": "CUSTOM:CheeseWorld"
+      "value": "CUSTOM:UnrefinedCheese"
     },
     "dropAmount": 2,
     "isBeaconBase": false,

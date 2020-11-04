@@ -16,5 +16,14 @@
         "stream": false
       }
     ]
+  },
+  "cursedsounds": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "kraftsingles:isc-11ursed",
+        "stream": true
+      }
+    ]
   }
 }

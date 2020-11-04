@@ -7,7 +7,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraft.item.ItemStack;
 import net.minecraft.creativetab.CreativeTabs;
 
-import net.mcreator.kraftsingles.item.ItemCheeseWorld;
+import net.mcreator.kraftsingles.item.ItemKraftCheese;
 import net.mcreator.kraftsingles.ElementsKraftSingles;
 
 @ElementsKraftSingles.ModElement.Tag
@@ -22,7 +22,7 @@ public class TabKraftSingles extends ElementsKraftSingles.ModElement {
 			@SideOnly(Side.CLIENT)
 			@Override
 			public ItemStack getTabIconItem() {
-				return new ItemStack(ItemCheeseWorld.block, (int) (1));
+				return new ItemStack(ItemKraftCheese.block, (int) (1));
 			}
 
 			@SideOnly(Side.CLIENT)

@@ -24,7 +24,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
 import net.mcreator.kraftsingles.world.WorldCheeseWorld;
-import net.mcreator.kraftsingles.item.ItemCheeseWorld;
+import net.mcreator.kraftsingles.item.ItemUnrefinedCheese;
 import net.mcreator.kraftsingles.creativetab.TabKraftSingles;
 import net.mcreator.kraftsingles.ElementsKraftSingles;
 
@@ -86,7 +86,7 @@ public class BlockCheesyOre extends ElementsKraftSingles.ModElement {
 
 		@Override
 		public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
-			drops.add(new ItemStack(ItemCheeseWorld.block, (int) (2)));
+			drops.add(new ItemStack(ItemUnrefinedCheese.block, (int) (2)));
 		}
 	}
 }
