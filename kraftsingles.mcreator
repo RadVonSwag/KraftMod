@@ -1,5 +1,6 @@
 {
   "id_map": {
+    "GUI": 1,
     "DIMENSION": 1
   },
   "mod_elements": [
@@ -296,6 +297,88 @@
           }
         ]
       }
+    },
+    {
+      "name": "RefiningCheese",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Refinery",
+      "type": "gui",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      }
+    },
+    {
+      "name": "TAKINGREFINEDCHEESE",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CheeseGrater",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Cheesesgratersrecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -339,7 +422,8 @@
       "tile.cheeserock.name": "Cheese Rock",
       "item.record.niggerzbop.desc": "The Classic Hit, Niggerz Bop",
       "tile.velveetacheese.name": "Velveeta Cheese",
-      "item.amiibo.name": "Amiibo"
+      "item.amiibo.name": "Amiibo",
+      "item.cheesegrater.name": "Cheese Grater"
     }
   },
   "workspaceSettings": {

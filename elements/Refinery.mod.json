@@ -1,0 +1,82 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:EmptyJar"
+          },
+          "id": 0,
+          "onSlotChanged": {
+            "name": "RefiningCheese"
+          },
+          "name": "Slot #0",
+          "x": 304,
+          "y": 128
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:UnrefinedCheese"
+          },
+          "id": 1,
+          "onSlotChanged": {
+            "name": "RefiningCheese"
+          },
+          "name": "Slot #1",
+          "x": 373,
+          "y": 126
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:CheeseGrater"
+          },
+          "id": 2,
+          "onSlotChanged": {
+            "name": "RefiningCheese"
+          },
+          "name": "Slot #2",
+          "x": 335,
+          "y": 181
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "onTakenFromSlot": {
+            "name": "TAKINGREFINEDCHEESE"
+          },
+          "name": "Slot #3",
+          "x": 512,
+          "y": 146
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Cheese Refinery",
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "name": "Cheese Refinery",
+          "x": 345,
+          "y": 77
+        }
+      }
+    ]
+  }
+}

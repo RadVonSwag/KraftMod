@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "nujabes",
+    "customModelName": "Normal",
+    "name": "Cheese Grater",
+    "creativeTab": {
+      "value": "CUSTOM:KraftSingles"
+    },
+    "toolType": "Special",
+    "harvestLevel": 0,
+    "efficiency": 1.0,
+    "attackSpeed": 1.6,
+    "enchantability": 8,
+    "damageVsEntity": 4.0,
+    "usageCount": 256,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}
