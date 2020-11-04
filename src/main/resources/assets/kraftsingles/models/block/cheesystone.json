@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kraftsingles:blocks/heeseock",
+    "up": "kraftsingles:blocks/heeseock",
+    "north": "kraftsingles:blocks/heeseock",
+    "east": "kraftsingles:blocks/heeseock",
+    "south": "kraftsingles:blocks/heeseock",
+    "west": "kraftsingles:blocks/heeseock",
+    "particle": "kraftsingles:blocks/heeseock"
+  }
+}

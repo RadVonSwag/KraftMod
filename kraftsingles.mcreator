@@ -1,0 +1,212 @@
+{
+  "id_map": {
+    "DIMENSION": 1
+  },
+  "mod_elements": [
+    {
+      "name": "CheeseBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheeseRock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheeseLands",
+      "type": "biome",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheeseWorld",
+      "type": "dimension",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "1": 1
+      }
+    },
+    {
+      "name": "KraftSingles",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheesyStone",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Milk",
+      "type": "fluid",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VelveetaCheese",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Velveeta",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MilkSlime",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Milkyslimes",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VelveetaBulk",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheesyOre",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NiggerzBop",
+      "type": "musicdisc",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "UnrefinedCheese",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheesyOreFoodEaten",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KraftCheese",
+      "type": "food",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EmptyJar",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Amiibo",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "niggerz",
+      "file": "iggerz_bop",
+      "category": "record"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.kraftcheese.name": "Kraft Cheese",
+      "fluid.milk": "Milk",
+      "tile.cheeseblock.name": "Cheese Block",
+      "item.niggerzbop.name": "Niggerz Bop",
+      "tile.cheesystone.name": "Cheesy Stone",
+      "item.emptyjar.name": "Empty Jar",
+      "item.cheeseworld.name": "Cheese World Portal Igniter",
+      "itemGroup.tabkraftsingles": "Kraft Singles",
+      "tile.cheesyore.name": "Cheesy Ore",
+      "item.milkslime.name": "Milk Slime",
+      "item.unrefinedcheese.name": "Unrefined Cheese",
+      "tile.cheeserock.name": "Cheese Rock",
+      "item.record.niggerzbop.desc": "The Classic Hit, Niggerz Bop",
+      "tile.velveetacheese.name": "Velveeta Cheese",
+      "item.amiibo.name": "Amiibo"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "kraftsingles",
+    "modName": "Kraft Singles",
+    "version": "1.0.0",
+    "author": "Donovan, Andrew, Garrett, and the kraft singles",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "modElementsPackage": "net.mcreator.kraftsingles",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000214217
+}

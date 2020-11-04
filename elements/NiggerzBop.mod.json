@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "nigsbop",
+    "name": "Niggerz Bop",
+    "description": "The Classic Hit, Niggerz Bop",
+    "creativeTab": {
+      "value": "CUSTOM:KraftSingles"
+    },
+    "music": {
+      "value": "CUSTOM:niggerz"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

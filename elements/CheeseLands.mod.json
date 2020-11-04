@@ -1,0 +1,68 @@
+{
+  "_fv": 6,
+  "_type": "biome",
+  "definition": {
+    "name": "Cheese Lands",
+    "groundBlock": {
+      "value": "CUSTOM:CheeseRock"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:CheeseRock"
+    },
+    "generateLakes": false,
+    "treeType": 0,
+    "vanillaTreeType": "Default",
+    "minHeight": 7,
+    "spawnVines": false,
+    "treeVines": {
+      "value": ""
+    },
+    "treeStem": {
+      "value": ""
+    },
+    "treeBranch": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "customColors": true,
+    "airColor": {
+      "value": -5916161,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -256,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -256,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 0,
+    "grassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "deadBushesPerChunk": 0,
+    "rainingPossibility": 0.0,
+    "temperature": 0.3,
+    "baseHeight": 0.1,
+    "heightVariation": 0.3,
+    "spawnBiome": false,
+    "biomeWeight": 10,
+    "biomeType": "WARM",
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "No parent"
+    },
+    "biomeDictionaryTypes": [
+      "MUSHROOM"
+    ],
+    "spawnList": []
+  }
+}

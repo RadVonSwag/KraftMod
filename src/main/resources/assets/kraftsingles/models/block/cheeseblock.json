@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kraftsingles:blocks/cheeseblock",
+    "up": "kraftsingles:blocks/cheeseblock",
+    "north": "kraftsingles:blocks/cheeseblock",
+    "east": "kraftsingles:blocks/cheeseblock",
+    "south": "kraftsingles:blocks/cheeseblock",
+    "west": "kraftsingles:blocks/cheeseblock",
+    "particle": "kraftsingles:blocks/cheeseblock"
+  }
+}

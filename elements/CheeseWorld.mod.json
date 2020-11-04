@@ -1,0 +1,56 @@
+{
+  "_fv": 6,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "CUSTOM:CheeseBlock"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0.0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Cheese World Portal Igniter",
+    "igniterTab": {
+      "value": "CUSTOM:KraftSingles"
+    },
+    "texture": "cheesycheese",
+    "portalTexture": "tempcheese",
+    "enablePortal": true,
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:CheeseLands"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:CheeseRock"
+    },
+    "secondaryFillerBlock": {
+      "value": "CUSTOM:CheeseRock"
+    },
+    "tertiaryFillerBlock": {
+      "value": "Blocks.GOLD_BLOCK"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:Milk"
+    },
+    "airColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "hasWeather": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "BED_EXPLODES",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "dimensionMusic": {
+      "value": ""
+    }
+  }
+}
