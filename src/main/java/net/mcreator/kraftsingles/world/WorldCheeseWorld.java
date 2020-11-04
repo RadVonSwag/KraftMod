@@ -579,12 +579,11 @@ public class WorldCheeseWorld extends ElementsKraftSingles.ModElement {
 					pz = pos.getZ() + 0.5 + 0.25 * j;
 					vz = random.nextFloat() * 2 * j;
 				}
-				world.spawnParticle(EnumParticleTypes.PORTAL, px, py, pz, vx, vy, vz);
+				world.spawnParticle(EnumParticleTypes.DRIP_LAVA, px, py, pz, vx, vy, vz);
 			}
 			if (random.nextInt(110) == 0)
 				world.playSound(pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5,
-						(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY
-								.getObject(new ResourceLocation(("block.portal.ambient"))),
+						(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation(("block.note.harp"))),
 						SoundCategory.BLOCKS, 0.5f, random.nextFloat() * 0.4F + 0.8F, false);
 		}
 

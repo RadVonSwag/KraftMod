@@ -7,5 +7,14 @@
         "stream": true
       }
     ]
+  },
+  "cheesewarp": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kraftsingles:cheesy",
+        "stream": false
+      }
+    ]
   }
 }

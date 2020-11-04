@@ -228,6 +228,50 @@
           }
         ]
       }
+    },
+    {
+      "name": "CumJarFoodEaten",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShinyPokemon",
+      "type": "achievement",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ShinyPokemonBenefit",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -236,11 +280,17 @@
       "name": "niggerz",
       "file": "iggerz_bop",
       "category": "record"
+    },
+    {
+      "name": "cheesewarp",
+      "file": "cheesy",
+      "category": "master"
     }
   ],
   "language_map": {
     "en_us": {
       "item.nujabes.name": "Nujabes",
+      "advancements.shinypokemon.title": "Shiny Pokemon",
       "item.kraftcheese.name": "Kraft Cheese",
       "fluid.milk": "Milk",
       "tile.cheeseblock.name": "Cheese Block",
@@ -254,6 +304,7 @@
       "tile.cheesyore.name": "Cheesy Ore",
       "item.milkslime.name": "Milk Slime",
       "item.unrefinedcheese.name": "Unrefined Cheese",
+      "advancements.shinypokemon.descr": "Get the 1 in 8192 chance cum load",
       "tile.cheeserock.name": "Cheese Rock",
       "item.record.niggerzbop.desc": "The Classic Hit, Niggerz Bop",
       "tile.velveetacheese.name": "Velveeta Cheese",

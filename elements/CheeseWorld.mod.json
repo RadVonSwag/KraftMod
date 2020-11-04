@@ -6,11 +6,11 @@
       "value": "CUSTOM:CheeseBlock"
     },
     "portalParticles": {
-      "value": "PORTAL"
+      "value": "DRIP_LAVA"
     },
     "portalLuminance": 0.0,
     "portalSound": {
-      "value": "block.portal.ambient"
+      "value": "block.note.harp"
     },
     "igniterName": "Cheese World Portal Igniter",
     "igniterTab": {

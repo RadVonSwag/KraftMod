@@ -1,8 +1,23 @@
 package net.mcreator.kraftsingles.procedure;
 
+import net.minecraftforge.items.ItemHandlerHelper;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.event.entity.player.PlayerSleepInBedEvent;
+import net.minecraftforge.common.MinecraftForge;
+
+import net.minecraft.world.World;
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.kraftsingles.item.ItemNujabes;
+import net.mcreator.kraftsingles.item.ItemEmptyJar;
+import net.mcreator.kraftsingles.item.ItemCumJar;
+import net.mcreator.kraftsingles.ElementsKraftSingles;
+
 @ElementsKraftSingles.ModElement.Tag
 public class ProcedureCumming extends ElementsKraftSingles.ModElement {
-
 	public ProcedureCumming(ElementsKraftSingles instance) {
 		super(instance, 22);
 	}
@@ -12,9 +27,7 @@ public class ProcedureCumming extends ElementsKraftSingles.ModElement {
 			System.err.println("Failed to load dependency entity for procedure Cumming!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
-
 		if (((entity instanceof EntityPlayer)
 				? ((EntityPlayer) entity).inventory.hasItemStack(new ItemStack(ItemEmptyJar.block, (int) (1)))
 				: false)) {
@@ -30,7 +43,6 @@ public class ProcedureCumming extends ElementsKraftSingles.ModElement {
 				}
 			}
 		}
-
 	}
 
 	@SubscribeEvent
@@ -54,5 +66,4 @@ public class ProcedureCumming extends ElementsKraftSingles.ModElement {
 	public void preInit(FMLPreInitializationEvent event) {
 		MinecraftForge.EVENT_BUS.register(this);
 	}
-
 }

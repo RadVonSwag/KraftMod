@@ -1,4 +1,5 @@
 item.nujabes.name=Nujabes
+advancements.shinypokemon.title=Shiny Pokemon
 item.kraftcheese.name=Kraft Cheese
 fluid.milk=Milk
 tile.cheeseblock.name=Cheese Block
@@ -12,6 +13,7 @@ itemGroup.tabkraftsingles=Kraft Singles
 tile.cheesyore.name=Cheesy Ore
 item.milkslime.name=Milk Slime
 item.unrefinedcheese.name=Unrefined Cheese
+advancements.shinypokemon.descr=Get the 1 in 8192 chance cum load
 tile.cheeserock.name=Cheese Rock
 item.record.niggerzbop.desc=The Classic Hit, Niggerz Bop
 tile.velveetacheese.name=Velveeta Cheese

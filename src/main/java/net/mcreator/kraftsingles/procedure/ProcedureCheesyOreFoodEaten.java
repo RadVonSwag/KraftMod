@@ -21,5 +21,7 @@ public class ProcedureCheesyOreFoodEaten extends ElementsKraftSingles.ModElement
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof EntityLivingBase)
 			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.REGENERATION, (int) 15, (int) 3));
+		if (entity instanceof EntityLivingBase)
+			((EntityLivingBase) entity).addPotionEffect(new PotionEffect(MobEffects.SPEED, (int) 60, (int) 2, (false), (false)));
 	}
 }
