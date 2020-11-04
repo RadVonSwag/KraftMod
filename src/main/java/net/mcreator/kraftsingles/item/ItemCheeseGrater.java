@@ -1,12 +1,32 @@
 
 package net.mcreator.kraftsingles.item;
 
+import net.minecraftforge.fml.relauncher.SideOnly;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.client.event.ModelRegistryEvent;
+
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.entity.ai.attributes.AttributeModifier;
+import net.minecraft.entity.SharedMonsterAttributes;
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.block.state.IBlockState;
+
+import net.mcreator.kraftsingles.creativetab.TabKraftSingles;
+import net.mcreator.kraftsingles.ElementsKraftSingles;
+
+import com.google.common.collect.Multimap;
+
 @ElementsKraftSingles.ModElement.Tag
 public class ItemCheeseGrater extends ElementsKraftSingles.ModElement {
-
 	@GameRegistry.ObjectHolder("kraftsingles:cheesegrater")
 	public static final Item block = null;
-
 	public ItemCheeseGrater(ElementsKraftSingles instance) {
 		super(instance, 31);
 	}
@@ -14,7 +34,6 @@ public class ItemCheeseGrater extends ElementsKraftSingles.ModElement {
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemToolCustom() {
-
 		}.setUnlocalizedName("cheesegrater").setRegistryName("cheesegrater").setCreativeTab(TabKraftSingles.tab));
 	}
 
@@ -23,9 +42,7 @@ public class ItemCheeseGrater extends ElementsKraftSingles.ModElement {
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("kraftsingles:cheesegrater", "inventory"));
 	}
-
 	private static class ItemToolCustom extends Item {
-
 		protected ItemToolCustom() {
 			setMaxDamage(256);
 			setMaxStackSize(1);
@@ -68,7 +85,5 @@ public class ItemCheeseGrater extends ElementsKraftSingles.ModElement {
 		public int getItemEnchantability() {
 			return 8;
 		}
-
 	}
-
 }

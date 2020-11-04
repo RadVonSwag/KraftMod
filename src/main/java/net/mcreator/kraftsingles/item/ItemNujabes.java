@@ -10,9 +10,9 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.ItemRecord;
 import net.minecraft.item.Item;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
+import net.mcreator.kraftsingles.creativetab.TabKraftSingles;
 import net.mcreator.kraftsingles.ElementsKraftSingles;
 
 @ElementsKraftSingles.ModElement.Tag
@@ -20,7 +20,7 @@ public class ItemNujabes extends ElementsKraftSingles.ModElement {
 	@GameRegistry.ObjectHolder("kraftsingles:nujabes")
 	public static final Item block = null;
 	public ItemNujabes(ElementsKraftSingles instance) {
-		super(instance, 28);
+		super(instance, 33);
 	}
 
 	@Override
@@ -38,7 +38,7 @@ public class ItemNujabes extends ElementsKraftSingles.ModElement {
 			super("nujabes", ElementsKraftSingles.sounds.get(new ResourceLocation("kraftsingles:nujabespt5")));
 			setUnlocalizedName("nujabes");
 			setRegistryName("nujabes");
-			setCreativeTab(CreativeTabs.MISC);
+			setCreativeTab(TabKraftSingles.tab);
 		}
 	}
 }

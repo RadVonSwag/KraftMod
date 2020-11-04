@@ -4,9 +4,9 @@
   "definition": {
     "texture": "luvsic",
     "name": "Nujabes",
-    "description": "Luv-sic Pt. 5",
+    "description": "All is peaceful",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:KraftSingles"
     },
     "music": {
       "value": "CUSTOM:nujabespt5"
