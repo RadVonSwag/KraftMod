@@ -290,68 +290,12 @@
       }
     },
     {
-      "name": "RefiningCheese",
-      "type": "procedure",
-      "sortid": 28,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "int"
-          },
-          {
-            "name": "y",
-            "type": "int"
-          },
-          {
-            "name": "z",
-            "type": "int"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "Cheesesgratersrecipe",
       "type": "recipe",
       "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {}
-    },
-    {
-      "name": "TAKINGREFINEDCHEESE",
-      "type": "procedure",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "int"
-          },
-          {
-            "name": "y",
-            "type": "int"
-          },
-          {
-            "name": "z",
-            "type": "int"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
     },
     {
       "name": "Refinery",
@@ -532,6 +476,14 @@
       }
     },
     {
+      "name": "VatinHand",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
       "name": "PlaceVat",
       "type": "procedure",
       "sortid": 46,
@@ -564,18 +516,140 @@
       }
     },
     {
-      "name": "VatinHand",
-      "type": "item",
-      "sortid": 46,
+      "name": "Nigger",
+      "type": "block",
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {}
     },
     {
-      "name": "Nigger",
-      "type": "block",
+      "name": "GrindingMyGears",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GrateCheese",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GreatedCheese",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Grindery",
+      "type": "gui",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      }
+    },
+    {
+      "name": "ConsiderMyGearsGround",
+      "type": "procedure",
       "sortid": 47,
       "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CheeseRefinery",
+      "type": "block",
+      "sortid": 48,
+      "compiles": false,
       "locked_code": false,
       "ids": {}
     }
@@ -615,7 +689,6 @@
       "tile.cheesyore.name": "Cheesy Ore",
       "itemGroup.tabkraftsingles": "Kraft Singles",
       "item.milkslime.name": "Milk Slime",
-      "tile.nigger.name": "Nigger",
       "item.unrefinedcheese.name": "Unrefined Cheese",
       "tile.cheeserock.name": "Cheese Rock",
       "tile.blockoflead.name": "Block Of Lead",
@@ -623,7 +696,6 @@
       "item.nujabes.name": "Nujabes",
       "item.kraftcheese.name": "Kraft Cheese",
       "fluid.milk": "Milk",
-      "item.vatinhand.name": "Vat",
       "item.niggerzbop.name": "Niggerz Bop",
       "item.record.curseddisc.desc": "Evil Powers",
       "item.amiiboinajar.name": "Amiibo In A Jar",

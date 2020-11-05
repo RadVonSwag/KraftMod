@@ -15,7 +15,7 @@
           },
           "id": 0,
           "onSlotChanged": {
-            "name": "GrateCheese"
+            "name": "GrindingMyGears"
           },
           "name": "Slot #0",
           "x": 336,
@@ -30,7 +30,7 @@
           },
           "id": 1,
           "onSlotChanged": {
-            "name": "GrateCheese"
+            "name": "GrindingMyGears"
           },
           "name": "Slot #1",
           "x": 372,
@@ -49,7 +49,7 @@
           },
           "id": 2,
           "onSlotChanged": {
-            "name": "GrateCheese"
+            "name": "GrindingMyGears"
           },
           "name": "Slot #2",
           "x": 354,
@@ -61,7 +61,7 @@
         "data": {
           "id": 3,
           "onTakenFromSlot": {
-            "name": "GreatedCheese"
+            "name": "ConsiderMyGearsGround"
           },
           "name": "Slot #3",
           "x": 480,
@@ -71,14 +71,14 @@
       {
         "type": "label",
         "data": {
-          "text": "Cheese Refinery",
+          "text": "Grindstone",
           "color": {
             "value": -6710887,
             "falpha": 0.0
           },
-          "name": "Cheese Refinery",
-          "x": 345,
-          "y": 77
+          "name": "Grindstone",
+          "x": 372,
+          "y": 78
         }
       }
     ]
