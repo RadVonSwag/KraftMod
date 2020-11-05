@@ -34,40 +34,39 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.Block;
 
-import net.mcreator.kraftsingles.gui.GuiGrindery;
 import net.mcreator.kraftsingles.creativetab.TabKraftSingles;
 import net.mcreator.kraftsingles.KraftSingles;
 import net.mcreator.kraftsingles.ElementsKraftSingles;
 
 @ElementsKraftSingles.ModElement.Tag
-public class BlockGrindStone extends ElementsKraftSingles.ModElement {
-	@GameRegistry.ObjectHolder("kraftsingles:grindstone")
+public class BlockCheeseRefinery extends ElementsKraftSingles.ModElement {
+	@GameRegistry.ObjectHolder("kraftsingles:cheeserefinery")
 	public static final Block block = null;
-	public BlockGrindStone(ElementsKraftSingles instance) {
-		super(instance, 42);
+	public BlockCheeseRefinery(ElementsKraftSingles instance) {
+		super(instance, 48);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("grindstone"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("cheeserefinery"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override
 	public void init(FMLInitializationEvent event) {
-		GameRegistry.registerTileEntity(TileEntityCustom.class, "kraftsingles:tileentitygrindstone");
+		GameRegistry.registerTileEntity(TileEntityCustom.class, "kraftsingles:tileentitycheeserefinery");
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0,
-				new ModelResourceLocation("kraftsingles:grindstone", "inventory"));
+				new ModelResourceLocation("kraftsingles:cheeserefinery", "inventory"));
 	}
 	public static class BlockCustom extends Block implements ITileEntityProvider {
 		public BlockCustom() {
 			super(Material.ROCK);
-			setUnlocalizedName("grindstone");
+			setUnlocalizedName("cheeserefinery");
 			setSoundType(SoundType.STONE);
 			setHardness(2F);
 			setResistance(10F);
@@ -124,7 +123,7 @@ public class BlockGrindStone extends ElementsKraftSingles.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 			if (entity instanceof EntityPlayer) {
-				((EntityPlayer) entity).openGui(KraftSingles.instance, GuiGrindery.GUIID, world, x, y, z);
+				((EntityPlayer) entity).openGui(KraftSingles.instance, GuiRefinery.GUIID, world, x, y, z);
 			}
 			return true;
 		}
@@ -159,7 +158,7 @@ public class BlockGrindStone extends ElementsKraftSingles.ModElement {
 
 		@Override
 		public String getName() {
-			return "container.grindstone";
+			return "container.cheeserefinery";
 		}
 
 		@Override
@@ -205,12 +204,12 @@ public class BlockGrindStone extends ElementsKraftSingles.ModElement {
 
 		@Override
 		public String getGuiID() {
-			return "kraftsingles:grindstone";
+			return "kraftsingles:cheeserefinery";
 		}
 
 		@Override
 		public Container createContainer(InventoryPlayer playerInventory, EntityPlayer playerIn) {
-			return new GuiGrindery.GuiContainerMod(this.getWorld(), this.getPos().getX(), this.getPos().getY(), this.getPos().getZ(), playerIn);
+			return new GuiRefinery.GuiContainerMod(this.getWorld(), this.getPos().getX(), this.getPos().getY(), this.getPos().getZ(), playerIn);
 		}
 
 		@Override
