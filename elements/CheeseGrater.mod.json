@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "nujabes",
+    "texture": "cheesegrater",
     "customModelName": "Normal",
     "name": "Cheese Grater",
     "creativeTab": {

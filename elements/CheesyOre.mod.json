@@ -28,7 +28,7 @@
     "creativeTab": {
       "value": "CUSTOM:KraftSingles"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "affectedBySilkTouch": true,
     "customDrop": {
       "value": "CUSTOM:UnrefinedCheese"
@@ -70,7 +70,7 @@
     "particleAmount": 4,
     "particleSpawningCondition": "ALWAYS",
     "hasInventory": true,
-    "guiBoundTo": "Refinery",
+    "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": true,
     "inventorySize": 4,
     "inventoryStackSize": 64,

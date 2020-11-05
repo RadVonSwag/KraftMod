@@ -19,6 +19,7 @@ import net.minecraft.inventory.Slot;
 import net.minecraft.inventory.InventoryBasic;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.Container;
+import net.minecraft.init.Blocks;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.client.gui.inventory.GuiContainer;
@@ -27,7 +28,6 @@ import net.minecraft.client.gui.GuiButton;
 import net.mcreator.kraftsingles.procedure.ProcedureTAKINGREFINEDCHEESE;
 import net.mcreator.kraftsingles.procedure.ProcedureRefiningCheese;
 import net.mcreator.kraftsingles.item.ItemUnrefinedCheese;
-import net.mcreator.kraftsingles.item.ItemEmptyJar;
 import net.mcreator.kraftsingles.item.ItemCheeseGrater;
 import net.mcreator.kraftsingles.KraftSingles;
 import net.mcreator.kraftsingles.ElementsKraftSingles;
@@ -67,7 +67,7 @@ public class GuiRefinery extends ElementsKraftSingles.ModElement {
 			TileEntity ent = world.getTileEntity(new BlockPos(x, y, z));
 			if (ent instanceof IInventory)
 				this.internal = (IInventory) ent;
-			this.customSlots.put(0, this.addSlotToContainer(new Slot(internal, 0, 28, 28) {
+			this.customSlots.put(0, this.addSlotToContainer(new Slot(internal, 0, 26, 30) {
 				@Override
 				public void onSlotChanged() {
 					super.onSlotChanged();
@@ -76,10 +76,10 @@ public class GuiRefinery extends ElementsKraftSingles.ModElement {
 
 				@Override
 				public boolean isItemValid(ItemStack stack) {
-					return (new ItemStack(ItemEmptyJar.block, (int) (1)).getItem() == stack.getItem());
+					return (new ItemStack(Blocks.IRON_ORE, (int) (1)).getItem() == stack.getItem());
 				}
 			}));
-			this.customSlots.put(1, this.addSlotToContainer(new Slot(internal, 1, 62, 27) {
+			this.customSlots.put(1, this.addSlotToContainer(new Slot(internal, 1, 80, 30) {
 				@Override
 				public void onSlotChanged() {
 					super.onSlotChanged();
@@ -91,7 +91,7 @@ public class GuiRefinery extends ElementsKraftSingles.ModElement {
 					return (new ItemStack(ItemUnrefinedCheese.block, (int) (1)).getItem() == stack.getItem());
 				}
 			}));
-			this.customSlots.put(2, this.addSlotToContainer(new Slot(internal, 2, 43, 55) {
+			this.customSlots.put(2, this.addSlotToContainer(new Slot(internal, 2, 53, 57) {
 				@Override
 				public void onSlotChanged() {
 					super.onSlotChanged();
@@ -103,7 +103,7 @@ public class GuiRefinery extends ElementsKraftSingles.ModElement {
 					return (new ItemStack(ItemCheeseGrater.block, (int) (1)).getItem() == stack.getItem());
 				}
 			}));
-			this.customSlots.put(3, this.addSlotToContainer(new Slot(internal, 3, 132, 37) {
+			this.customSlots.put(3, this.addSlotToContainer(new Slot(internal, 3, 125, 39) {
 				@Override
 				public ItemStack onTake(EntityPlayer entity, ItemStack stack) {
 					ItemStack retval = super.onTake(entity, stack);

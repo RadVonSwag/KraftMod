@@ -28,6 +28,7 @@ import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.ItemStackHelper;
 import net.minecraft.inventory.InventoryHelper;
+import net.minecraft.inventory.ContainerChest;
 import net.minecraft.inventory.Container;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.entity.player.EntityPlayer;
@@ -40,9 +41,7 @@ import net.minecraft.block.Block;
 
 import net.mcreator.kraftsingles.world.WorldCheeseWorld;
 import net.mcreator.kraftsingles.item.ItemUnrefinedCheese;
-import net.mcreator.kraftsingles.gui.GuiRefinery;
 import net.mcreator.kraftsingles.creativetab.TabKraftSingles;
-import net.mcreator.kraftsingles.KraftSingles;
 import net.mcreator.kraftsingles.ElementsKraftSingles;
 
 import java.util.Random;
@@ -99,6 +98,7 @@ public class BlockCheesyOre extends ElementsKraftSingles.ModElement {
 			super(Material.ROCK);
 			setUnlocalizedName("cheesyore");
 			setSoundType(SoundType.STONE);
+			setHarvestLevel("pickaxe", 3);
 			setHardness(3F);
 			setResistance(10F);
 			setLightLevel(0F);
@@ -158,9 +158,6 @@ public class BlockCheesyOre extends ElementsKraftSingles.ModElement {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			if (entity instanceof EntityPlayer) {
-				((EntityPlayer) entity).openGui(KraftSingles.instance, GuiRefinery.GUIID, world, x, y, z);
-			}
 			return true;
 		}
 	}
@@ -245,7 +242,8 @@ public class BlockCheesyOre extends ElementsKraftSingles.ModElement {
 
 		@Override
 		public Container createContainer(InventoryPlayer playerInventory, EntityPlayer playerIn) {
-			return new GuiRefinery.GuiContainerMod(this.getWorld(), this.getPos().getX(), this.getPos().getY(), this.getPos().getZ(), playerIn);
+			this.fillWithLoot(playerIn);
+			return new ContainerChest(playerInventory, this, playerIn);
 		}
 
 		@Override
