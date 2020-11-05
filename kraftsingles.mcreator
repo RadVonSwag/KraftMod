@@ -458,6 +458,78 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "MilkinCauldron",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FilledVat",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MilkoutCauldron",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -486,15 +558,19 @@
   "language_map": {
     "en_us": {
       "advancements.shinypokemon.title": "Shiny Pokemon",
+      "tile.vat.name": "Vat",
       "tile.cheeseblock.name": "Cheese Block",
       "item.cumjar.name": "Cum Jar",
       "item.record.nujabes.desc": "Everything is quiet",
+      "tile.leadore.name": "Lead Ore",
       "item.emptyjar.name": "Empty Jar",
-      "itemGroup.tabkraftsingles": "Kraft Singles",
       "tile.cheesyore.name": "Cheesy Ore",
+      "itemGroup.tabkraftsingles": "Kraft Singles",
       "item.milkslime.name": "Milk Slime",
       "item.unrefinedcheese.name": "Unrefined Cheese",
       "tile.cheeserock.name": "Cheese Rock",
+      "tile.blockoflead.name": "Block Of Lead",
+      "tile.grindstone.name": "Grind Stone",
       "item.nujabes.name": "Nujabes",
       "item.kraftcheese.name": "Kraft Cheese",
       "fluid.milk": "Milk",
@@ -502,10 +578,13 @@
       "item.record.curseddisc.desc": "Evil Powers",
       "item.amiiboinajar.name": "Amiibo In A Jar",
       "tile.cheesystone.name": "Cheesy Stone",
+      "tile.filledvat.name": "Filled Vat",
       "item.cheeseworld.name": "Cheese World Portal Igniter",
       "item.curseddisc.name": "Cursed Disc",
       "advancements.shinypokemon.descr": "Get the 1 in 8192 chance cum load",
+      "item.leadingot.name": "Lead Ingot",
       "item.record.niggerzbop.desc": "The Classic Hit, Niggerz Bop",
+      "item.leadsword.name": "Lead Sword",
       "tile.velveetacheese.name": "Velveeta Cheese",
       "item.amiibo.name": "Amiibo",
       "item.cheesegrater.name": "Cheese Grater"

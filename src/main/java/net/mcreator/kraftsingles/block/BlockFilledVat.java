@@ -20,33 +20,33 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
-import net.mcreator.kraftsingles.procedure.ProcedureMilkinCauldron;
+import net.mcreator.kraftsingles.procedure.ProcedureMilkoutCauldron;
 import net.mcreator.kraftsingles.creativetab.TabKraftSingles;
 import net.mcreator.kraftsingles.ElementsKraftSingles;
 
 @ElementsKraftSingles.ModElement.Tag
-public class BlockVat extends ElementsKraftSingles.ModElement {
-	@GameRegistry.ObjectHolder("kraftsingles:vat")
+public class BlockFilledVat extends ElementsKraftSingles.ModElement {
+	@GameRegistry.ObjectHolder("kraftsingles:filledvat")
 	public static final Block block = null;
-	public BlockVat(ElementsKraftSingles instance) {
-		super(instance, 34);
+	public BlockFilledVat(ElementsKraftSingles instance) {
+		super(instance, 44);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("vat"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("filledvat"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("kraftsingles:vat", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("kraftsingles:filledvat", "inventory"));
 	}
 	public static class BlockCustom extends Block {
 		public BlockCustom() {
 			super(Material.IRON);
-			setUnlocalizedName("vat");
+			setUnlocalizedName("filledvat");
 			setSoundType(SoundType.METAL);
 			setHardness(1F);
 			setResistance(10F);
@@ -74,7 +74,7 @@ public class BlockVat extends ElementsKraftSingles.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				ProcedureMilkinCauldron.executeProcedure($_dependencies);
+				ProcedureMilkoutCauldron.executeProcedure($_dependencies);
 			}
 			return true;
 		}

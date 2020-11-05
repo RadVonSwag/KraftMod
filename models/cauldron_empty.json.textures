@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "side": "block_lead",
+        "top": "block_lead",
+        "bottom": "block_lead",
+        "inside": "block_lead"
+      },
+      "name": "default"
+    }
+  }
+}

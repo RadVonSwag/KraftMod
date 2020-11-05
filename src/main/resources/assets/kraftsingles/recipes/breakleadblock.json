@@ -3,11 +3,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "kraftsingles:unknown_element"
+      "item": "kraftsingles:blockoflead"
     }
   ],
   "result": {
-    "item": "kraftsingles:unknown_element",
+    "item": "kraftsingles:leadingot",
     "count": 9
   }
 }
