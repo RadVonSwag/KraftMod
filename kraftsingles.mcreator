@@ -378,6 +378,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Vat",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -406,6 +414,7 @@
   "language_map": {
     "en_us": {
       "advancements.shinypokemon.title": "Shiny Pokemon",
+      "tile.vat.name": "Vat",
       "tile.cheeseblock.name": "Cheese Block",
       "item.cumjar.name": "Cum Jar",
       "item.record.nujabes.desc": "Everything is quiet",
