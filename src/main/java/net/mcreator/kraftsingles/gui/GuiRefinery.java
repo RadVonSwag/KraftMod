@@ -24,8 +24,8 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.gui.GuiButton;
 
-import net.mcreator.kraftsingles.procedure.ProcedureGrindingMyGears;
-import net.mcreator.kraftsingles.procedure.ProcedureConsiderMyGearsGround;
+import net.mcreator.kraftsingles.procedure.ProcedureGreatedCheese;
+import net.mcreator.kraftsingles.procedure.ProcedureGrateCheese;
 import net.mcreator.kraftsingles.item.ItemCheeseGrater;
 import net.mcreator.kraftsingles.KraftSingles;
 import net.mcreator.kraftsingles.ElementsKraftSingles;
@@ -37,11 +37,11 @@ import java.util.HashMap;
 import java.io.IOException;
 
 @ElementsKraftSingles.ModElement.Tag
-public class GuiGrindery extends ElementsKraftSingles.ModElement {
+public class GuiRefinery extends ElementsKraftSingles.ModElement {
 	public static int GUIID = 1;
 	public static HashMap guistate = new HashMap();
-	public GuiGrindery(ElementsKraftSingles instance) {
-		super(instance, 45);
+	public GuiRefinery(ElementsKraftSingles instance) {
+		super(instance, 28);
 	}
 
 	@Override
@@ -272,7 +272,7 @@ public class GuiGrindery extends ElementsKraftSingles.ModElement {
 			this.xSize = 176;
 			this.ySize = 166;
 		}
-		private static final ResourceLocation texture = new ResourceLocation("kraftsingles:textures/grindery.png");
+		private static final ResourceLocation texture = new ResourceLocation("kraftsingles:textures/refinery.png");
 		@Override
 		public void drawScreen(int mouseX, int mouseY, float partialTicks) {
 			this.drawDefaultBackground();
@@ -307,7 +307,7 @@ public class GuiGrindery extends ElementsKraftSingles.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int par1, int par2) {
-			this.fontRenderer.drawString("Grindstone", 61, 2, -6710887);
+			this.fontRenderer.drawString("Cheese Refinery", 47, 2, -6710887);
 		}
 
 		@Override
@@ -451,7 +451,7 @@ public class GuiGrindery extends ElementsKraftSingles.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				ProcedureGrindingMyGears.executeProcedure($_dependencies);
+				ProcedureGrateCheese.executeProcedure($_dependencies);
 			}
 		}
 		if (slotID == 1 && changeType == 0) {
@@ -461,7 +461,7 @@ public class GuiGrindery extends ElementsKraftSingles.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				ProcedureGrindingMyGears.executeProcedure($_dependencies);
+				ProcedureGrateCheese.executeProcedure($_dependencies);
 			}
 		}
 		if (slotID == 2 && changeType == 0) {
@@ -471,7 +471,7 @@ public class GuiGrindery extends ElementsKraftSingles.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				ProcedureGrindingMyGears.executeProcedure($_dependencies);
+				ProcedureGrateCheese.executeProcedure($_dependencies);
 			}
 		}
 		if (slotID == 3 && changeType == 1) {
@@ -481,7 +481,7 @@ public class GuiGrindery extends ElementsKraftSingles.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				ProcedureConsiderMyGearsGround.executeProcedure($_dependencies);
+				ProcedureGreatedCheese.executeProcedure($_dependencies);
 			}
 		}
 	}

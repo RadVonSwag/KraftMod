@@ -34,6 +34,7 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.block.Block;
 
+import net.mcreator.kraftsingles.gui.GuiRefinery;
 import net.mcreator.kraftsingles.gui.GuiGrindery;
 
 import java.util.function.Supplier;

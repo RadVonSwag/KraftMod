@@ -1,8 +1,19 @@
 package net.mcreator.kraftsingles.procedure;
 
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.tileentity.TileEntityLockableLoot;
+import net.minecraft.tileentity.TileEntity;
+import net.minecraft.item.ItemStack;
+
+import net.mcreator.kraftsingles.item.ItemUnrefinedCheese;
+import net.mcreator.kraftsingles.item.ItemKraftCheese;
+import net.mcreator.kraftsingles.item.ItemCheeseGrater;
+import net.mcreator.kraftsingles.block.BlockLeadOre;
+import net.mcreator.kraftsingles.ElementsKraftSingles;
+
 @ElementsKraftSingles.ModElement.Tag
 public class ProcedureGrateCheese extends ElementsKraftSingles.ModElement {
-
 	public ProcedureGrateCheese(ElementsKraftSingles instance) {
 		super(instance, 43);
 	}
@@ -24,12 +35,10 @@ public class ProcedureGrateCheese extends ElementsKraftSingles.ModElement {
 			System.err.println("Failed to load dependency world for procedure GrateCheese!");
 			return;
 		}
-
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-
 		if (((((new Object() {
 			public ItemStack getItemStack(BlockPos pos, int sltid) {
 				TileEntity inv = world.getTileEntity(pos);
@@ -81,7 +90,5 @@ public class ProcedureGrateCheese extends ElementsKraftSingles.ModElement {
 					((TileEntityLockableLoot) inv).removeStackFromSlot((int) (3));
 			}
 		}
-
 	}
-
 }

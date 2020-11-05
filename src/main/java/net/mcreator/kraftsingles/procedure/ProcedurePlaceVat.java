@@ -1,8 +1,18 @@
 package net.mcreator.kraftsingles.procedure;
 
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.EnumFacing;
+import net.minecraft.item.ItemStack;
+import net.minecraft.init.Blocks;
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.kraftsingles.block.BlockVat;
+import net.mcreator.kraftsingles.ElementsKraftSingles;
+
 @ElementsKraftSingles.ModElement.Tag
 public class ProcedurePlaceVat extends ElementsKraftSingles.ModElement {
-
 	public ProcedurePlaceVat(ElementsKraftSingles instance) {
 		super(instance, 46);
 	}
@@ -28,13 +38,11 @@ public class ProcedurePlaceVat extends ElementsKraftSingles.ModElement {
 			System.err.println("Failed to load dependency world for procedure PlaceVat!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-
 		boolean coreBlock = false;
 		if ((((entity.getHorizontalFacing()) == EnumFacing.WEST)
 				&& ((world.getBlockState(new BlockPos((int) (x + 1), (int) y, (int) z))).getBlock() == Blocks.AIR.getDefaultState().getBlock()))) {
@@ -70,7 +78,5 @@ public class ProcedurePlaceVat extends ElementsKraftSingles.ModElement {
 			}
 		}
 		(((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY)).shrink((int) 1);
-
 	}
-
 }
