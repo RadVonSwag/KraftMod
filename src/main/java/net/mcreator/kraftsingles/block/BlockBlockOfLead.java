@@ -12,9 +12,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.material.MapColor;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
@@ -22,16 +20,16 @@ import net.mcreator.kraftsingles.creativetab.TabKraftSingles;
 import net.mcreator.kraftsingles.ElementsKraftSingles;
 
 @ElementsKraftSingles.ModElement.Tag
-public class BlockCheeseBlock extends ElementsKraftSingles.ModElement {
-	@GameRegistry.ObjectHolder("kraftsingles:cheeseblock")
+public class BlockBlockOfLead extends ElementsKraftSingles.ModElement {
+	@GameRegistry.ObjectHolder("kraftsingles:blockoflead")
 	public static final Block block = null;
-	public BlockCheeseBlock(ElementsKraftSingles instance) {
-		super(instance, 1);
+	public BlockBlockOfLead(ElementsKraftSingles instance) {
+		super(instance, 37);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("cheeseblock"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("blockoflead"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
@@ -39,30 +37,23 @@ public class BlockCheeseBlock extends ElementsKraftSingles.ModElement {
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0,
-				new ModelResourceLocation("kraftsingles:cheeseblock", "inventory"));
+				new ModelResourceLocation("kraftsingles:blockoflead", "inventory"));
 	}
 	public static class BlockCustom extends Block {
 		public BlockCustom() {
-			super(Material.CLOTH);
-			setUnlocalizedName("cheeseblock");
-			setSoundType(SoundType.SLIME);
-			setHarvestLevel("pickaxe", 3);
-			setHardness(3F);
+			super(Material.IRON);
+			setUnlocalizedName("blockoflead");
+			setSoundType(SoundType.METAL);
+			setHardness(5F);
 			setResistance(10F);
 			setLightLevel(0F);
 			setLightOpacity(255);
 			setCreativeTab(TabKraftSingles.tab);
-			setDefaultSlipperiness(0.7f);
 		}
 
 		@Override
 		public boolean isBeaconBase(IBlockAccess worldObj, BlockPos pos, BlockPos beacon) {
 			return true;
-		}
-
-		@Override
-		public MapColor getMapColor(IBlockState state, IBlockAccess blockAccess, BlockPos pos) {
-			return MapColor.GOLD;
 		}
 	}
 }

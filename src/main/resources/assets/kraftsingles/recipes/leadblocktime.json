@@ -1,0 +1,37 @@
+{
+  "group": "kraftsingles",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kraftsingles:leadingot"
+    },
+    {
+      "item": "kraftsingles:leadingot"
+    },
+    {
+      "item": "kraftsingles:leadingot"
+    },
+    {
+      "item": "kraftsingles:leadingot"
+    },
+    {
+      "item": "kraftsingles:leadingot"
+    },
+    {
+      "item": "kraftsingles:leadingot"
+    },
+    {
+      "item": "kraftsingles:leadingot"
+    },
+    {
+      "item": "kraftsingles:leadingot"
+    },
+    {
+      "item": "kraftsingles:leadingot"
+    }
+  ],
+  "result": {
+    "item": "kraftsingles:blockoflead",
+    "count": 1
+  }
+}

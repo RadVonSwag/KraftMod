@@ -2,12 +2,12 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "cheeseblock2",
-    "textureTop": "cheeseblock",
-    "textureLeft": "cheeseblock",
-    "textureFront": "cheeseblock",
-    "textureRight": "cheeseblock",
-    "textureBack": "cheeseblock",
+    "texture": "ore_lead",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
     "renderType": 11,
     "customModelName": "Single texture",
     "rotationMode": 0,
@@ -20,13 +20,13 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Cheese Block",
+    "name": "Lead Ore",
     "specialInfo": [],
     "hardness": 3.0,
     "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
-      "value": "CUSTOM:KraftSingles"
+      "value": "BUILDING_BLOCKS"
     },
     "destroyTool": "pickaxe",
     "affectedBySilkTouch": true,
@@ -34,29 +34,29 @@
       "value": ""
     },
     "dropAmount": 1,
-    "isBeaconBase": true,
+    "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "CLOTH"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
-    "colorOnMap": "GOLD",
+    "colorOnMap": "STONE",
     "creativePickItem": {
       "value": ""
     },
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 0.7,
+    "slipperiness": 0.6,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "SLIME"
+      "value": "STONE"
     },
     "luminance": 0.0,
     "unbreakable": false,
@@ -77,7 +77,9 @@
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "Surface"
+    ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
@@ -85,8 +87,8 @@
       }
     ],
     "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "frequencyOnChunk": 8,
+    "minGenerateHeight": 5,
+    "maxGenerateHeight": 35
   }
 }
