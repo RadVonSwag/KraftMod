@@ -26,12 +26,12 @@
     "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
-      "value": "CUSTOM:KraftSingles"
+      "value": "No creative tab entry"
     },
     "destroyTool": "Not specified",
     "affectedBySilkTouch": true,
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:VatinHand"
     },
     "dropAmount": 1,
     "isBeaconBase": false,
@@ -47,7 +47,7 @@
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:VatinHand"
     },
     "flammability": 0,
     "fireSpreadSpeed": 0,
