@@ -1,0 +1,12 @@
+{
+  "parent": "kraftsingles:custom/cauldron_level3",
+  "textures": {
+    "all": "kraftsingles:blocks/block_lead",
+    "particle": "kraftsingles:blocks/block_lead",
+    "side": "kraftsingles:blocks/block_lead",
+    "top": "kraftsingles:blocks/block_lead",
+    "bottom": "kraftsingles:blocks/block_lead",
+    "inside": "kraftsingles:blocks/block_lead",
+    "water": "kraftsingles:blocks/milkstill"
+  }
+}

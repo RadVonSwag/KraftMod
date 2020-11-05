@@ -1,7 +1,6 @@
 {
   "id_map": {
-    "DIMENSION": 1,
-    "GUI": 1
+    "DIMENSION": 1
   },
   "mod_elements": [
     {
@@ -397,6 +396,34 @@
       "ids": {}
     },
     {
+      "name": "GrindingMyGears",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
       "name": "GrateCheese",
       "type": "procedure",
       "sortid": 43,
@@ -463,34 +490,6 @@
       }
     },
     {
-      "name": "GrindingMyGears",
-      "type": "procedure",
-      "sortid": 46,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "int"
-          },
-          {
-            "name": "y",
-            "type": "int"
-          },
-          {
-            "name": "z",
-            "type": "int"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "ConsiderMyGearsGround",
       "type": "procedure",
       "sortid": 47,
@@ -525,6 +524,86 @@
       "compiles": false,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "MilkinCauldron",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vat",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MilkoutCauldron",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FilledVat",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -556,14 +635,13 @@
       "tile.cheeseblock.name": "Cheese Block",
       "item.cumjar.name": "Cum Jar",
       "item.record.nujabes.desc": "Everything is quiet",
-      "item.emptyjar.name": "Empty Jar",
       "tile.leadore.name": "Lead Ore",
-      "itemGroup.tabkraftsingles": "Kraft Singles",
+      "item.emptyjar.name": "Empty Jar",
       "tile.cheesyore.name": "Cheesy Ore",
+      "itemGroup.tabkraftsingles": "Kraft Singles",
       "item.milkslime.name": "Milk Slime",
       "item.unrefinedcheese.name": "Unrefined Cheese",
       "tile.cheeserock.name": "Cheese Rock",
-      "tile.cheeserefinery.name": "Refinery",
       "tile.blockoflead.name": "Block Of Lead",
       "tile.grindstone.name": "Grind Stone",
       "item.nujabes.name": "Nujabes",
