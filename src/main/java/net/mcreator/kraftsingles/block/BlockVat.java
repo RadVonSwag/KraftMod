@@ -1,49 +1,12 @@
 
 package net.mcreator.kraftsingles.block;
 
-import net.minecraftforge.fml.relauncher.SideOnly;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.common.registry.GameRegistry;
-import net.minecraftforge.fml.common.event.FMLInitializationEvent;
-import net.minecraftforge.client.model.ModelLoader;
-import net.minecraftforge.client.event.ModelRegistryEvent;
-
-import net.minecraft.world.World;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.NonNullList;
-import net.minecraft.util.EnumHand;
-import net.minecraft.util.EnumFacing;
-import net.minecraft.util.EnumBlockRenderType;
-import net.minecraft.util.BlockRenderLayer;
-import net.minecraft.tileentity.TileEntityLockableLoot;
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.network.play.server.SPacketUpdateTileEntity;
-import net.minecraft.network.NetworkManager;
-import net.minecraft.nbt.NBTTagCompound;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemBlock;
-import net.minecraft.item.Item;
-import net.minecraft.inventory.ItemStackHelper;
-import net.minecraft.inventory.InventoryHelper;
-import net.minecraft.inventory.Container;
-import net.minecraft.entity.player.InventoryPlayer;
-import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.block.state.IBlockState;
-import net.minecraft.block.material.Material;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.ITileEntityProvider;
-import net.minecraft.block.Block;
-
-import net.mcreator.kraftsingles.gui.GuiRefinery;
-import net.mcreator.kraftsingles.creativetab.TabKraftSingles;
-import net.mcreator.kraftsingles.KraftSingles;
-import net.mcreator.kraftsingles.ElementsKraftSingles;
-
 @ElementsKraftSingles.ModElement.Tag
 public class BlockVat extends ElementsKraftSingles.ModElement {
+
 	@GameRegistry.ObjectHolder("kraftsingles:vat")
 	public static final Block block = null;
+
 	public BlockVat(ElementsKraftSingles instance) {
 		super(instance, 34);
 	}
@@ -63,17 +26,23 @@ public class BlockVat extends ElementsKraftSingles.ModElement {
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("kraftsingles:vat", "inventory"));
+
 	}
+
 	public static class BlockCustom extends Block implements ITileEntityProvider {
+
 		public BlockCustom() {
 			super(Material.IRON);
+
 			setUnlocalizedName("vat");
 			setSoundType(SoundType.METAL);
+
 			setHardness(1F);
 			setResistance(10F);
 			setLightLevel(0F);
 			setLightOpacity(0);
 			setCreativeTab(TabKraftSingles.tab);
+
 		}
 
 		@SideOnly(Side.CLIENT)
@@ -134,15 +103,20 @@ public class BlockVat extends ElementsKraftSingles.ModElement {
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
+
 			if (entity instanceof EntityPlayer) {
 				((EntityPlayer) entity).openGui(KraftSingles.instance, GuiRefinery.GUIID, world, x, y, z);
 			}
+
 			return true;
 		}
+
 	}
 
 	public static class TileEntityCustom extends TileEntityLockableLoot {
+
 		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(4, ItemStack.EMPTY);
+
 		@Override
 		public int getSizeInventory() {
 			return 4;
@@ -226,5 +200,7 @@ public class BlockVat extends ElementsKraftSingles.ModElement {
 		protected NonNullList<ItemStack> getItems() {
 			return this.stacks;
 		}
+
 	}
+
 }

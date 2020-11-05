@@ -8,8 +8,8 @@ import net.minecraft.item.ItemStack;
 
 import net.mcreator.kraftsingles.item.ItemUnrefinedCheese;
 import net.mcreator.kraftsingles.item.ItemKraftCheese;
-import net.mcreator.kraftsingles.item.ItemEmptyJar;
 import net.mcreator.kraftsingles.item.ItemCheeseGrater;
+import net.mcreator.kraftsingles.block.BlockLeadOre;
 import net.mcreator.kraftsingles.ElementsKraftSingles;
 
 @ElementsKraftSingles.ModElement.Tag
@@ -46,7 +46,7 @@ public class ProcedureRefiningCheese extends ElementsKraftSingles.ModElement {
 					return ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(ItemEmptyJar.block, (int) (1)).getItem())
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(BlockLeadOre.block, (int) (1)).getItem())
 				&& ((new Object() {
 					public ItemStack getItemStack(BlockPos pos, int sltid) {
 						TileEntity inv = world.getTileEntity(pos);

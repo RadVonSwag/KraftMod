@@ -2,12 +2,12 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "cheeseblock2",
-    "textureTop": "cheeseblock",
-    "textureLeft": "cheeseblock",
-    "textureFront": "cheeseblock",
-    "textureRight": "cheeseblock",
-    "textureBack": "cheeseblock",
+    "texture": "block_lead",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
     "renderType": 11,
     "customModelName": "Single texture",
     "rotationMode": 0,
@@ -20,15 +20,15 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Cheese Block",
+    "name": "Block Of Lead",
     "specialInfo": [],
-    "hardness": 3.0,
+    "hardness": 5.0,
     "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "CUSTOM:KraftSingles"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "affectedBySilkTouch": true,
     "customDrop": {
       "value": ""
@@ -40,23 +40,23 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "CLOTH"
+      "value": "IRON"
     },
     "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
-    "colorOnMap": "GOLD",
+    "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
     },
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 0.7,
+    "slipperiness": 0.6,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "SLIME"
+      "value": "METAL"
     },
     "luminance": 0.0,
     "unbreakable": false,

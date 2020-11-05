@@ -56,6 +56,11 @@ public class BlockCheeseBlock extends ElementsKraftSingles.ModElement {
 		}
 
 		@Override
+		public boolean isBeaconBase(IBlockAccess worldObj, BlockPos pos, BlockPos beacon) {
+			return true;
+		}
+
+		@Override
 		public MapColor getMapColor(IBlockState state, IBlockAccess blockAccess, BlockPos pos) {
 			return MapColor.GOLD;
 		}

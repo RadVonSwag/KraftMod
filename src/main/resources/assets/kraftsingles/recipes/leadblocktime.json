@@ -1,0 +1,37 @@
+{
+  "group": "kraftsingles",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kraftsingles:unknown_element"
+    },
+    {
+      "item": "kraftsingles:unknown_element"
+    },
+    {
+      "item": "kraftsingles:unknown_element"
+    },
+    {
+      "item": "kraftsingles:unknown_element"
+    },
+    {
+      "item": "kraftsingles:unknown_element"
+    },
+    {
+      "item": "kraftsingles:unknown_element"
+    },
+    {
+      "item": "kraftsingles:unknown_element"
+    },
+    {
+      "item": "kraftsingles:unknown_element"
+    },
+    {
+      "item": "kraftsingles:unknown_element"
+    }
+  ],
+  "result": {
+    "item": "kraftsingles:unknown_element",
+    "count": 1
+  }
+}
