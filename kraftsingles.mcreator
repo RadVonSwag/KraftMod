@@ -493,10 +493,6 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
             "name": "x",
             "type": "int"
           },
@@ -676,8 +672,8 @@
       "tile.cheeseblock.name": "Cheese Block",
       "item.cumjar.name": "Cum Jar",
       "item.record.nujabes.desc": "Everything is quiet",
-      "item.emptyjar.name": "Empty Jar",
       "tile.leadore.name": "Lead Ore",
+      "item.emptyjar.name": "Empty Jar",
       "itemGroup.tabkraftsingles": "Kraft Singles",
       "tile.cheesyore.name": "Cheesy Ore",
       "item.milkslime.name": "Milk Slime",
