@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "leadingsword",
+    "textureHelmet": "helmet_lead",
     "enableBody": true,
-    "textureBody": "leadingsword",
+    "textureBody": "chestplate_lead",
     "enableLeggings": true,
-    "textureLeggings": "leadingsword",
+    "textureLeggings": "leggings_lead",
     "enableBoots": true,
-    "textureBoots": "leadingsword",
+    "textureBoots": "boots_lead",
     "creativeTab": {
       "value": "COMBAT"
     },
