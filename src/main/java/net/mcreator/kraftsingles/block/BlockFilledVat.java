@@ -52,6 +52,7 @@ public class BlockFilledVat extends ElementsKraftSingles.ModElement {
 			super(Material.IRON);
 			setUnlocalizedName("filledvat");
 			setSoundType(SoundType.METAL);
+			setHarvestLevel("pickaxe", 1);
 			setHardness(1F);
 			setResistance(10F);
 			setLightLevel(0F);
@@ -67,6 +68,11 @@ public class BlockFilledVat extends ElementsKraftSingles.ModElement {
 		@Override
 		public ItemStack getPickBlock(IBlockState state, RayTraceResult target, World world, BlockPos pos, EntityPlayer player) {
 			return new ItemStack(ItemVatinHand.block, (int) (1));
+		}
+
+		@Override
+		public boolean canSilkHarvest(World world, BlockPos pos, IBlockState state, EntityPlayer player) {
+			return false;
 		}
 
 		@Override

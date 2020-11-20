@@ -28,8 +28,8 @@
     "creativeTab": {
       "value": "No creative tab entry"
     },
-    "destroyTool": "Not specified",
-    "affectedBySilkTouch": true,
+    "destroyTool": "pickaxe",
+    "affectedBySilkTouch": false,
     "customDrop": {
       "value": "CUSTOM:VatinHand"
     },
