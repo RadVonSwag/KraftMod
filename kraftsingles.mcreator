@@ -632,6 +632,38 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Mozarella",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MozarellaPlanks",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StickStick",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlanksOfPlanks",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -661,8 +693,8 @@
     "en_us": {
       "advancements.shinypokemon.title": "Shiny Pokemon",
       "tile.vat.name": "Vat",
-      "item.cumjar.name": "Cum Jar",
       "tile.cheeseblock.name": "Cheese Block",
+      "item.cumjar.name": "Cum Jar",
       "item.record.nujabes.desc": "Everything is quiet",
       "item.leadamorbody.name": "Lead Chestplate",
       "tile.leadore.name": "Lead Ore",
@@ -680,6 +712,7 @@
       "item.cheesestonepickaxe.name": "Cheese Stone Pickaxe",
       "fluid.milk": "Milk",
       "item.vatinhand.name": "Vat",
+      "tile.mozarella.name": "Mozarella",
       "item.niggerzbop.name": "Niggerz Bop",
       "item.record.curseddisc.desc": "Evil Powers",
       "item.amiiboinajar.name": "Amiibo In A Jar",
@@ -687,6 +720,7 @@
       "tile.filledvat.name": "Filled Vat",
       "item.cheeseworld.name": "Cheese World Portal Igniter",
       "item.curseddisc.name": "Cursed Disc",
+      "tile.mozarellaplanks.name": "Mozarella Planks",
       "advancements.shinypokemon.descr": "Get the 1 in 8192 chance cum load",
       "item.leadamorlegs.name": "Lead Leggings",
       "item.leadingot.name": "Lead Ingot",
