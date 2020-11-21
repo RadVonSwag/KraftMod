@@ -682,6 +682,30 @@
           }
         ]
       }
+    },
+    {
+      "name": "CheeseStick",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheeseStonePickaxe",
+      "type": "tool",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheeseofRockPickaxe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -715,8 +739,9 @@
       "item.cumjar.name": "Cum Jar",
       "item.record.nujabes.desc": "Everything is quiet",
       "item.leadamorbody.name": "Lead Chestplate",
-      "item.emptyjar.name": "Empty Jar",
       "tile.leadore.name": "Lead Ore",
+      "item.emptyjar.name": "Empty Jar",
+      "item.cheesestick.name": "Cheese Stick",
       "itemGroup.tabkraftsingles": "Kraft Singles",
       "tile.cheesyore.name": "Cheesy Ore",
       "item.milkslime.name": "Milk Slime",
@@ -727,6 +752,7 @@
       "tile.grindstone.name": "Grind Stone",
       "item.nujabes.name": "Nujabes",
       "item.kraftcheese.name": "Kraft Cheese",
+      "item.cheesestonepickaxe.name": "Cheese Stone Pickaxe",
       "fluid.milk": "Milk",
       "item.vatinhand.name": "Vat",
       "item.niggerzbop.name": "Niggerz Bop",

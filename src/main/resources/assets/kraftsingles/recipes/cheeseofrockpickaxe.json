@@ -1,0 +1,30 @@
+{
+  "group": "kraftsingles",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "kraftsingles:cheesystone"
+    },
+    "1": {
+      "item": "kraftsingles:cheesystone"
+    },
+    "2": {
+      "item": "kraftsingles:cheesystone"
+    },
+    "4": {
+      "item": "kraftsingles:cheesestick"
+    },
+    "7": {
+      "item": "kraftsingles:cheesestick"
+    }
+  },
+  "result": {
+    "item": "kraftsingles:cheesestonepickaxe",
+    "count": 1
+  }
+}
