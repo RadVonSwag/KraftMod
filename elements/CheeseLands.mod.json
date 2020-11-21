@@ -10,21 +10,21 @@
       "value": "CUSTOM:CheeseRock"
     },
     "generateLakes": false,
-    "treeType": 0,
+    "treeType": 1,
     "vanillaTreeType": "Default",
     "minHeight": 7,
     "spawnVines": false,
     "treeVines": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "treeStem": {
-      "value": ""
+      "value": "CUSTOM:Mozarella"
     },
     "treeBranch": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "treeFruits": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "customColors": true,
     "airColor": {

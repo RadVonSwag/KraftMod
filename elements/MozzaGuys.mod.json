@@ -1,0 +1,19 @@
+{
+  "_fv": 6,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:MozarellaPlanks"
+      },
+      {
+        "value": "Blocks.PLANKS#2"
+      }
+    ],
+    "functions": [],
+    "name": "plankWood",
+    "namespace": "minecraft"
+  }
+}

@@ -11,9 +11,9 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.Item;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
+import net.mcreator.kraftsingles.creativetab.TabKraftSingles;
 import net.mcreator.kraftsingles.ElementsKraftSingles;
 
 import java.util.Set;
@@ -29,16 +29,16 @@ public class ItemCheeseStonePickaxe extends ElementsKraftSingles.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("CHEESESTONEPICKAXE", 2, 94, 5f, 2f, 9)) {
+		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("CHEESESTONEPICKAXE", 2, 200, 8f, 3f, 15)) {
 			{
-				this.attackSpeed = -3f;
+				this.attackSpeed = -2.7999999999999998f;
 			}
 			public Set<String> getToolClasses(ItemStack stack) {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
 				ret.put("pickaxe", 2);
 				return ret.keySet();
 			}
-		}.setUnlocalizedName("cheesestonepickaxe").setRegistryName("cheesestonepickaxe").setCreativeTab(CreativeTabs.TOOLS));
+		}.setUnlocalizedName("cheesestonepickaxe").setRegistryName("cheesestonepickaxe").setCreativeTab(TabKraftSingles.tab));
 	}
 
 	@SideOnly(Side.CLIENT)
