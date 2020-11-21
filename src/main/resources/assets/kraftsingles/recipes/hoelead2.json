@@ -1,0 +1,27 @@
+{
+  "group": "kraftsingles",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "2 ",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "kraftsingles:leadingot"
+    },
+    "1": {
+      "item": "kraftsingles:leadingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "kraftsingles:leadhoe",
+    "count": 1
+  }
+}

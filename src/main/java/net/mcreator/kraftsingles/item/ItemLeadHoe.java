@@ -9,41 +9,38 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemPickaxe;
+import net.minecraft.item.ItemHoe;
 import net.minecraft.item.Item;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
-import net.mcreator.kraftsingles.creativetab.TabKraftSingles;
 import net.mcreator.kraftsingles.ElementsKraftSingles;
 
 import java.util.Set;
 import java.util.HashMap;
 
 @ElementsKraftSingles.ModElement.Tag
-public class ItemCheeseStonePickaxe extends ElementsKraftSingles.ModElement {
-	@GameRegistry.ObjectHolder("kraftsingles:cheesestonepickaxe")
+public class ItemLeadHoe extends ElementsKraftSingles.ModElement {
+	@GameRegistry.ObjectHolder("kraftsingles:leadhoe")
 	public static final Item block = null;
-	public ItemCheeseStonePickaxe(ElementsKraftSingles instance) {
-		super(instance, 53);
+	public ItemLeadHoe(ElementsKraftSingles instance) {
+		super(instance, 63);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("CHEESESTONEPICKAXE", 2, 200, 8f, 3f, 25)) {
-			{
-				this.attackSpeed = -2.7999999999999998f;
-			}
+		elements.items.add(() -> new ItemHoe(EnumHelper.addToolMaterial("LEADHOE", 1, 202, 5f, 0f, 15)) {
 			public Set<String> getToolClasses(ItemStack stack) {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
-				ret.put("pickaxe", 2);
+				ret.put("hoe", 1);
 				return ret.keySet();
 			}
-		}.setUnlocalizedName("cheesestonepickaxe").setRegistryName("cheesestonepickaxe").setCreativeTab(TabKraftSingles.tab));
+		}.setUnlocalizedName("leadhoe").setRegistryName("leadhoe").setCreativeTab(CreativeTabs.TOOLS));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("kraftsingles:cheesestonepickaxe", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("kraftsingles:leadhoe", "inventory"));
 	}
 }
