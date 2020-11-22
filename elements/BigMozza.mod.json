@@ -1,0 +1,19 @@
+{
+  "_fv": 6,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Mozarella"
+      },
+      {
+        "value": "Blocks.BIRCH_WOOD"
+      }
+    ],
+    "functions": [],
+    "name": "logWooden",
+    "namespace": "minecraft"
+  }
+}

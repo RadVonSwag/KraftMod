@@ -1,0 +1,16 @@
+{
+  "group": "kraftsingles",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "kraftsingles:mozarella"
+    }
+  },
+  "result": {
+    "item": "kraftsingles:mozarellaplanks",
+    "count": 4
+  }
+}

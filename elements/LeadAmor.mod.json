@@ -10,6 +10,9 @@
     "textureLeggings": "leggings_lead",
     "enableBoots": true,
     "textureBoots": "boots_lead",
+    "onHelmetTick": {
+      "name": "LeadHelmetGovernmentProtection"
+    },
     "creativeTab": {
       "value": "COMBAT"
     },

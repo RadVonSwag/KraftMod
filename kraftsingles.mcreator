@@ -380,14 +380,6 @@
       "ids": {}
     },
     {
-      "name": "GrindStone",
-      "type": "block",
-      "sortid": 42,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "BlockOfLead",
       "type": "block",
       "sortid": 37,
@@ -516,34 +508,6 @@
       }
     },
     {
-      "name": "GrindingMyGears",
-      "type": "procedure",
-      "sortid": 46,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "int"
-          },
-          {
-            "name": "y",
-            "type": "int"
-          },
-          {
-            "name": "z",
-            "type": "int"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "GrateCheese",
       "type": "procedure",
       "sortid": 43,
@@ -600,44 +564,6 @@
       }
     },
     {
-      "name": "Grindery",
-      "type": "gui",
-      "sortid": 45,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {
-        "0": 1
-      }
-    },
-    {
-      "name": "ConsiderMyGearsGround",
-      "type": "procedure",
-      "sortid": 47,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "int"
-          },
-          {
-            "name": "y",
-            "type": "int"
-          },
-          {
-            "name": "z",
-            "type": "int"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "CheeseRefinery",
       "type": "block",
       "sortid": 48,
@@ -666,6 +592,158 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "LeadHelmetGovernmentProtection",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CheeseStick",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheeseStonePickaxe",
+      "type": "tool",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheeseofRockPickaxe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Mozarella",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MozarellaPlanks",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StickStick",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlanksOfPlanks",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BigMozza",
+      "type": "tag",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MozzaGuys",
+      "type": "tag",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LeadPickaxe",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LeadAxe",
+      "type": "tool",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LeadHoe",
+      "type": "tool",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PickaxeLead",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AxeLead",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AxeLead2",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HoeLead",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "HoeLead2",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -701,6 +779,7 @@
       "item.leadamorbody.name": "Lead Chestplate",
       "tile.leadore.name": "Lead Ore",
       "item.emptyjar.name": "Empty Jar",
+      "item.cheesestick.name": "Cheese Stick",
       "itemGroup.tabkraftsingles": "Kraft Singles",
       "tile.cheesyore.name": "Cheesy Ore",
       "item.milkslime.name": "Milk Slime",
@@ -708,11 +787,13 @@
       "tile.cheeserock.name": "Cheese Rock",
       "tile.cheeserefinery.name": "Refinery",
       "tile.blockoflead.name": "Block Of Lead",
-      "tile.grindstone.name": "Grind Stone",
+      "item.leadaxe.name": "Lead Axe",
       "item.nujabes.name": "Nujabes",
       "item.kraftcheese.name": "Kraft Cheese",
+      "item.cheesestonepickaxe.name": "Cheese Stone Pickaxe",
       "fluid.milk": "Milk",
       "item.vatinhand.name": "Vat",
+      "tile.mozarella.name": "Mozarella",
       "item.niggerzbop.name": "Niggerz Bop",
       "item.record.curseddisc.desc": "Evil Powers",
       "item.amiiboinajar.name": "Amiibo In A Jar",
@@ -720,13 +801,16 @@
       "tile.filledvat.name": "Filled Vat",
       "item.cheeseworld.name": "Cheese World Portal Igniter",
       "item.curseddisc.name": "Cursed Disc",
+      "tile.mozarellaplanks.name": "Mozarella Planks",
       "advancements.shinypokemon.descr": "Get the 1 in 8192 chance cum load",
       "item.leadamorlegs.name": "Lead Leggings",
       "item.leadingot.name": "Lead Ingot",
+      "item.leadpickaxe.name": "Lead Pickaxe",
       "item.record.niggerzbop.desc": "The Classic Hit, Niggerz Bop",
       "item.leadsword.name": "Lead Sword",
       "item.leadamorhelmet.name": "Lead Helmet",
       "item.leadamorboots.name": "Lead Boots",
+      "item.leadhoe.name": "Lead Hoe",
       "tile.velveetacheese.name": "Velveeta Cheese",
       "item.amiibo.name": "Amiibo",
       "item.cheesegrater.name": "Cheese Grater"

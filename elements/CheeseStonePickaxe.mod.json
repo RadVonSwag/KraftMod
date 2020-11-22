@@ -1,0 +1,30 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "pickaxe_cheeserock",
+    "customModelName": "Normal",
+    "name": "Cheese Stone Pickaxe",
+    "creativeTab": {
+      "value": "CUSTOM:KraftSingles"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 2,
+    "efficiency": 8.0,
+    "attackSpeed": 1.2000000000000002,
+    "enchantability": 25,
+    "damageVsEntity": 7.0,
+    "usageCount": 200,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:CheeseRock"
+      },
+      {
+        "value": "CUSTOM:CheesyStone"
+      }
+    ]
+  }
+}
