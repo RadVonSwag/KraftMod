@@ -52,8 +52,8 @@ public class BlockVat extends ElementsKraftSingles.ModElement {
 			super(Material.IRON);
 			setUnlocalizedName("vat");
 			setSoundType(SoundType.METAL);
-			setHardness(1F);
-			setResistance(10F);
+			setHardness(2F);
+			setResistance(6F);
 			setLightLevel(0F);
 			setLightOpacity(0);
 			setCreativeTab(null);

@@ -53,8 +53,8 @@ public class BlockFilledVat extends ElementsKraftSingles.ModElement {
 			setUnlocalizedName("filledvat");
 			setSoundType(SoundType.METAL);
 			setHarvestLevel("pickaxe", 1);
-			setHardness(1F);
-			setResistance(10F);
+			setHardness(2F);
+			setResistance(6F);
 			setLightLevel(0F);
 			setLightOpacity(0);
 			setCreativeTab(null);

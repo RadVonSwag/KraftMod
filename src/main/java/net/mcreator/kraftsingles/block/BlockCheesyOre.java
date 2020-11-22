@@ -13,10 +13,9 @@ import net.minecraft.world.gen.IChunkGenerator;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.World;
 import net.minecraft.world.IBlockAccess;
+import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.NonNullList;
-import net.minecraft.util.EnumHand;
-import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumBlockRenderType;
 import net.minecraft.tileentity.TileEntityLockableLoot;
 import net.minecraft.tileentity.TileEntity;
@@ -40,6 +39,7 @@ import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.Block;
 
 import net.mcreator.kraftsingles.world.WorldCheeseWorld;
+import net.mcreator.kraftsingles.procedure.ProcedureDropCheese;
 import net.mcreator.kraftsingles.item.ItemUnrefinedCheese;
 import net.mcreator.kraftsingles.creativetab.TabKraftSingles;
 import net.mcreator.kraftsingles.ElementsKraftSingles;
@@ -99,7 +99,7 @@ public class BlockCheesyOre extends ElementsKraftSingles.ModElement {
 			setUnlocalizedName("cheesyore");
 			setSoundType(SoundType.STONE);
 			setHarvestLevel("pickaxe", 3);
-			setHardness(3F);
+			setHardness(8F);
 			setResistance(10F);
 			setLightLevel(0F);
 			setLightOpacity(255);
@@ -107,8 +107,13 @@ public class BlockCheesyOre extends ElementsKraftSingles.ModElement {
 		}
 
 		@Override
+		public ItemStack getPickBlock(IBlockState state, RayTraceResult target, World world, BlockPos pos, EntityPlayer player) {
+			return new ItemStack(BlockCheesyOre.block, (int) (1));
+		}
+
+		@Override
 		public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
-			drops.add(new ItemStack(ItemUnrefinedCheese.block, (int) (2)));
+			drops.add(new ItemStack(ItemUnrefinedCheese.block, (int) (0)));
 		}
 
 		@Override
@@ -152,13 +157,20 @@ public class BlockCheesyOre extends ElementsKraftSingles.ModElement {
 		}
 
 		@Override
-		public boolean onBlockActivated(World world, BlockPos pos, IBlockState state, EntityPlayer entity, EnumHand hand, EnumFacing direction,
-				float hitX, float hitY, float hitZ) {
-			super.onBlockActivated(world, pos, state, entity, hand, direction, hitX, hitY, hitZ);
+		public boolean removedByPlayer(IBlockState state, World world, BlockPos pos, EntityPlayer entity, boolean willHarvest) {
+			boolean retval = super.removedByPlayer(state, world, pos, entity, willHarvest);
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			return true;
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureDropCheese.executeProcedure($_dependencies);
+			}
+			return retval;
 		}
 	}
 

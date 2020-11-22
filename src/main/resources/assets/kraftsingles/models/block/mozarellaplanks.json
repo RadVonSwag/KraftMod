@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "kraftsingles:blocks/cheeseplanks",
-    "particle": "kraftsingles:blocks/cheeseplanks"
+    "all": "kraftsingles:blocks/cheeseplanks2",
+    "particle": "kraftsingles:blocks/cheeseplanks2"
   }
 }
