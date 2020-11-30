@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "listentonujabesandjackoff": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 5
+  }
+}
