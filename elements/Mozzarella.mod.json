@@ -2,16 +2,16 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "cheesebrock2",
-    "textureTop": "cheesebrock2",
-    "textureLeft": "cheesedwood2",
-    "textureFront": "cheesedwood2",
-    "textureRight": "cheesedwood2",
-    "textureBack": "cheesedwood2",
+    "texture": "mozzy",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 5,
-    "hasTransparency": true,
+    "rotationMode": 0,
+    "hasTransparency": false,
     "transparencyType": "SOLID",
     "mx": 0.0,
     "my": 0.0,
@@ -20,15 +20,15 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Mozarella",
+    "name": "Mozzarella",
     "specialInfo": [],
-    "hardness": 3.0,
+    "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "CUSTOM:KraftSingles"
     },
-    "destroyTool": "axe",
+    "destroyTool": "Not specified",
     "affectedBySilkTouch": true,
     "customDrop": {
       "value": ""
@@ -38,9 +38,9 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 0,
+    "lightOpacity": 255,
     "material": {
-      "value": "WOOD"
+      "value": "MISCELLANEOUS"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -49,14 +49,14 @@
     "creativePickItem": {
       "value": ""
     },
-    "flammability": 0,
+    "flammability": 1,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "SLIME"
     },
     "luminance": 0.0,
     "unbreakable": false,

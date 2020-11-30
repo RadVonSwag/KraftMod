@@ -22,7 +22,7 @@
     "faceShape": "SOLID",
     "name": "Cheesy Ore",
     "specialInfo": [],
-    "hardness": 3.0,
+    "hardness": 8.0,
     "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
@@ -33,7 +33,7 @@
     "customDrop": {
       "value": "CUSTOM:UnrefinedCheese"
     },
-    "dropAmount": 2,
+    "dropAmount": 0,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -47,7 +47,7 @@
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:CheesyOre"
     },
     "flammability": 0,
     "fireSpreadSpeed": 0,
@@ -71,7 +71,7 @@
     "particleSpawningCondition": "ALWAYS",
     "hasInventory": true,
     "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": true,
+    "openGUIOnRightClick": false,
     "inventorySize": 4,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
@@ -79,6 +79,9 @@
     "inventoryOutSlotIDs": [
       3
     ],
+    "onDestroyedByPlayer": {
+      "name": "DropCheese"
+    },
     "spawnWorldTypes": [
       "CUSTOM:CheeseWorld"
     ],

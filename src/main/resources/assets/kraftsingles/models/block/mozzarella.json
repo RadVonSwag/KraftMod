@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kraftsingles:blocks/mozzy",
+    "up": "kraftsingles:blocks/mozzy",
+    "north": "kraftsingles:blocks/mozzy",
+    "east": "kraftsingles:blocks/mozzy",
+    "south": "kraftsingles:blocks/mozzy",
+    "west": "kraftsingles:blocks/mozzy",
+    "particle": "kraftsingles:blocks/mozzy"
+  }
+}

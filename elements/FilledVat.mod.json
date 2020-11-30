@@ -22,8 +22,8 @@
     "faceShape": "SOLID",
     "name": "Filled Vat",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 2.0,
+    "resistance": 6.0,
     "hasGravity": false,
     "creativeTab": {
       "value": "No creative tab entry"
