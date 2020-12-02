@@ -43,7 +43,6 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.BlockSand;
 import net.minecraft.block.BlockFalling;
 
-import net.mcreator.kraftsingles.block.BlockMilk;
 import net.mcreator.kraftsingles.block.BlockCheeseRock;
 import net.mcreator.kraftsingles.ElementsKraftSingles;
 
@@ -151,7 +150,7 @@ public class WorldCheeseWorld extends ElementsKraftSingles.ModElement {
 	public static class ChunkProviderModded implements IChunkGenerator {
 		private static final IBlockState STONE = BlockCheeseRock.block.getDefaultState();
 		private static final IBlockState STONE2 = BlockCheeseRock.block.getDefaultState();
-		private static final IBlockState FLUID = BlockMilk.block.getDefaultState();
+		private static final IBlockState FLUID = BlockCheeseRock.block.getDefaultState();
 		private static final IBlockState AIR = Blocks.AIR.getDefaultState();
 		private static final IBlockState BEDROCK = Blocks.BEDROCK.getDefaultState();
 		private static final int SEALEVEL = 63;

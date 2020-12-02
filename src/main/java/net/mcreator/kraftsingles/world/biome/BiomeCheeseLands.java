@@ -42,12 +42,12 @@ public class BiomeCheeseLands extends ElementsKraftSingles.ModElement {
 	}
 	static class BiomeGenCustom extends Biome {
 		public BiomeGenCustom() {
-			super(new Biome.BiomeProperties("Cheese Lands").setRainfall(0F).setBaseHeight(0.1F).setWaterColor(-256).setHeightVariation(0.3F)
+			super(new Biome.BiomeProperties("Cheese Lands").setRainfall(0F).setBaseHeight(0.3F).setWaterColor(-256).setHeightVariation(0.1F)
 					.setTemperature(0.3F));
 			setRegistryName("cheeselands");
 			topBlock = BlockCheeseRock.block.getDefaultState();
 			fillerBlock = BlockCheeseRock.block.getDefaultState();
-			decorator.generateFalls = false;
+			decorator.generateFalls = true;
 			decorator.treesPerChunk = 0;
 			decorator.flowersPerChunk = 0;
 			decorator.grassPerChunk = 0;

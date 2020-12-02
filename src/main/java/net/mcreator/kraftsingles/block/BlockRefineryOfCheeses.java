@@ -34,42 +34,42 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.Block;
 
-import net.mcreator.kraftsingles.gui.GuiRadiatorSprings;
+import net.mcreator.kraftsingles.gui.GuiRefinery;
 import net.mcreator.kraftsingles.creativetab.TabKraftSingles;
 import net.mcreator.kraftsingles.KraftSingles;
 import net.mcreator.kraftsingles.ElementsKraftSingles;
 
 @ElementsKraftSingles.ModElement.Tag
-public class BlockRadiator extends ElementsKraftSingles.ModElement {
-	@GameRegistry.ObjectHolder("kraftsingles:radiator")
+public class BlockRefineryOfCheeses extends ElementsKraftSingles.ModElement {
+	@GameRegistry.ObjectHolder("kraftsingles:refineryofcheeses")
 	public static final Block block = null;
-	public BlockRadiator(ElementsKraftSingles instance) {
-		super(instance, 74);
+	public BlockRefineryOfCheeses(ElementsKraftSingles instance) {
+		super(instance, 79);
 	}
 
 	@Override
 	public void initElements() {
-		elements.blocks.add(() -> new BlockCustom().setRegistryName("radiator"));
+		elements.blocks.add(() -> new BlockCustom().setRegistryName("refineryofcheeses"));
 		elements.items.add(() -> new ItemBlock(block).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override
 	public void init(FMLInitializationEvent event) {
-		GameRegistry.registerTileEntity(TileEntityCustom.class, "kraftsingles:tileentityradiator");
+		GameRegistry.registerTileEntity(TileEntityCustom.class, "kraftsingles:tileentityrefineryofcheeses");
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("kraftsingles:radiator", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0,
+				new ModelResourceLocation("kraftsingles:refineryofcheeses", "inventory"));
 	}
 	public static class BlockCustom extends Block implements ITileEntityProvider {
 		public BlockCustom() {
-			super(Material.IRON);
-			setUnlocalizedName("radiator");
-			setSoundType(SoundType.METAL);
-			setHarvestLevel("pickaxe", 2);
-			setHardness(5F);
+			super(Material.ROCK);
+			setUnlocalizedName("refineryofcheeses");
+			setSoundType(SoundType.STONE);
+			setHardness(2F);
 			setResistance(10F);
 			setLightLevel(0F);
 			setLightOpacity(255);
@@ -124,17 +124,17 @@ public class BlockRadiator extends ElementsKraftSingles.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 			if (entity instanceof EntityPlayer) {
-				((EntityPlayer) entity).openGui(KraftSingles.instance, GuiRadiatorSprings.GUIID, world, x, y, z);
+				((EntityPlayer) entity).openGui(KraftSingles.instance, GuiRefinery.GUIID, world, x, y, z);
 			}
 			return true;
 		}
 	}
 
 	public static class TileEntityCustom extends TileEntityLockableLoot {
-		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(1, ItemStack.EMPTY);
+		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(9, ItemStack.EMPTY);
 		@Override
 		public int getSizeInventory() {
-			return 1;
+			return 9;
 		}
 
 		@Override
@@ -147,6 +147,8 @@ public class BlockRadiator extends ElementsKraftSingles.ModElement {
 
 		@Override
 		public boolean isItemValidForSlot(int index, ItemStack stack) {
+			if (index == 3)
+				return false;
 			return true;
 		}
 
@@ -157,7 +159,7 @@ public class BlockRadiator extends ElementsKraftSingles.ModElement {
 
 		@Override
 		public String getName() {
-			return "container.radiator";
+			return "container.refineryofcheeses";
 		}
 
 		@Override
@@ -198,18 +200,17 @@ public class BlockRadiator extends ElementsKraftSingles.ModElement {
 
 		@Override
 		public int getInventoryStackLimit() {
-			return 1;
+			return 64;
 		}
 
 		@Override
 		public String getGuiID() {
-			return "kraftsingles:radiator";
+			return "kraftsingles:refineryofcheeses";
 		}
 
 		@Override
 		public Container createContainer(InventoryPlayer playerInventory, EntityPlayer playerIn) {
-			return new GuiRadiatorSprings.GuiContainerMod(this.getWorld(), this.getPos().getX(), this.getPos().getY(), this.getPos().getZ(),
-					playerIn);
+			return new GuiRefinery.GuiContainerMod(this.getWorld(), this.getPos().getX(), this.getPos().getY(), this.getPos().getZ(), playerIn);
 		}
 
 		@Override

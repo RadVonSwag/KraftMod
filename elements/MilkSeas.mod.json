@@ -2,41 +2,41 @@
   "_fv": 6,
   "_type": "biome",
   "definition": {
-    "name": "Cheese Lands",
+    "name": "Milk Seas",
     "groundBlock": {
-      "value": "CUSTOM:CheeseRock"
+      "value": "CUSTOM:Milk"
     },
     "undergroundBlock": {
-      "value": "CUSTOM:CheeseRock"
+      "value": "CUSTOM:Milk"
     },
     "generateLakes": true,
-    "treeType": 1,
+    "treeType": 0,
     "vanillaTreeType": "Default",
     "minHeight": 7,
     "spawnVines": false,
     "treeVines": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
     "treeStem": {
-      "value": "CUSTOM:Mozarella"
+      "value": ""
     },
     "treeBranch": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
     "treeFruits": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
     "customColors": true,
     "airColor": {
-      "value": -5916161,
+      "value": -1,
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -256,
+      "value": -1,
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -256,
+      "value": -1,
       "falpha": 0.0
     },
     "treesPerChunk": 0,
@@ -49,20 +49,18 @@
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
     "deadBushesPerChunk": 0,
-    "rainingPossibility": 0.0,
-    "temperature": 0.3,
-    "baseHeight": 0.3,
-    "heightVariation": 0.1,
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "baseHeight": 0.0,
+    "heightVariation": 0.0,
     "spawnBiome": false,
-    "biomeWeight": 17,
+    "biomeWeight": 3,
     "biomeType": "WARM",
     "biomeCategory": "NONE",
     "parent": {
       "value": "No parent"
     },
-    "biomeDictionaryTypes": [
-      "MUSHROOM"
-    ],
+    "biomeDictionaryTypes": [],
     "spawnList": []
   }
 }

@@ -35,7 +35,6 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.block.Block;
 
 import net.mcreator.kraftsingles.gui.GuiRefinery;
-import net.mcreator.kraftsingles.gui.GuiRadiatorSprings;
 
 import java.util.function.Supplier;
 import java.util.Random;
@@ -135,8 +134,6 @@ public class ElementsKraftSingles implements IFuelHandler, IWorldGenerator {
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
 			if (id == GuiRefinery.GUIID)
 				return new GuiRefinery.GuiContainerMod(world, x, y, z, player);
-			if (id == GuiRadiatorSprings.GUIID)
-				return new GuiRadiatorSprings.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
@@ -144,8 +141,6 @@ public class ElementsKraftSingles implements IFuelHandler, IWorldGenerator {
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
 			if (id == GuiRefinery.GUIID)
 				return new GuiRefinery.GuiWindow(world, x, y, z, player);
-			if (id == GuiRadiatorSprings.GUIID)
-				return new GuiRadiatorSprings.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}
