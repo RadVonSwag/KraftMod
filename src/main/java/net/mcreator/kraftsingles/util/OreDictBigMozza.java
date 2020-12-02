@@ -19,6 +19,6 @@ public class OreDictBigMozza extends ElementsKraftSingles.ModElement {
 	@Override
 	public void init(FMLInitializationEvent event) {
 		OreDictionary.registerOre("logWooden", new ItemStack(BlockMozarella.block, (int) (1)));
-		OreDictionary.registerOre("logWooden", new ItemStack(Blocks.AIR, (int) (1)));
+		OreDictionary.registerOre("logWooden", new ItemStack(Blocks.LOG, (int) (1), 2));
 	}
 }

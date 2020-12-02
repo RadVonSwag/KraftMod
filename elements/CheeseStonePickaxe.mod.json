@@ -20,10 +20,7 @@
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:CheeseRock"
-      },
-      {
-        "value": "CUSTOM:CheesyStone"
+        "value": "CUSTOM:KraftCheese"
       }
     ]
   }

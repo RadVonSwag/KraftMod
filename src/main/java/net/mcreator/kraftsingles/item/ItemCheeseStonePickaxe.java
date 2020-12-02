@@ -21,7 +21,7 @@ import java.util.HashMap;
 
 @ElementsKraftSingles.ModElement.Tag
 public class ItemCheeseStonePickaxe extends ElementsKraftSingles.ModElement {
-	@GameRegistry.ObjectHolder("kraftsingles:cheesestonepickaxe")
+	@GameRegistry.ObjectHolder("kraftsingles:cheesepickaxe")
 	public static final Item block = null;
 	public ItemCheeseStonePickaxe(ElementsKraftSingles instance) {
 		super(instance, 53);
@@ -29,7 +29,7 @@ public class ItemCheeseStonePickaxe extends ElementsKraftSingles.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("CHEESESTONEPICKAXE", 2, 200, 8f, 3f, 25)) {
+		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("CHEESEPICKAXE", 2, 200, 8f, 3f, 25)) {
 			{
 				this.attackSpeed = -2.7999999999999998f;
 			}
@@ -38,12 +38,12 @@ public class ItemCheeseStonePickaxe extends ElementsKraftSingles.ModElement {
 				ret.put("pickaxe", 2);
 				return ret.keySet();
 			}
-		}.setUnlocalizedName("cheesestonepickaxe").setRegistryName("cheesestonepickaxe").setCreativeTab(TabKraftSingles.tab));
+		}.setUnlocalizedName("cheesepickaxe").setRegistryName("cheesepickaxe").setCreativeTab(TabKraftSingles.tab));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("kraftsingles:cheesestonepickaxe", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("kraftsingles:cheesepickaxe", "inventory"));
 	}
 }
