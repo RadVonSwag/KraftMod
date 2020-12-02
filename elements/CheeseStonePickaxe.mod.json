@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "pickaxe_cheeserock",
     "customModelName": "Normal",
-    "name": "Cheese Stone Pickaxe",
+    "name": "Cheese Pickaxe",
     "creativeTab": {
       "value": "CUSTOM:KraftSingles"
     },

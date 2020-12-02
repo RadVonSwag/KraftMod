@@ -18,7 +18,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
-import net.mcreator.kraftsingles.procedure.ProcedurePlaceVat;
+import net.mcreator.kraftsingles.procedure.ProcedureTestVatIdea;
 import net.mcreator.kraftsingles.creativetab.TabKraftSingles;
 import net.mcreator.kraftsingles.ElementsKraftSingles;
 
@@ -75,11 +75,7 @@ public class ItemVatinHand extends ElementsKraftSingles.ModElement {
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				ProcedurePlaceVat.executeProcedure($_dependencies);
+				ProcedureTestVatIdea.executeProcedure($_dependencies);
 			}
 			return retval;
 		}

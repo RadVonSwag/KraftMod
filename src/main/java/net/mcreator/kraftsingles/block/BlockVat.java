@@ -21,6 +21,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.material.MapColor;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Block;
 
@@ -67,6 +68,11 @@ public class BlockVat extends ElementsKraftSingles.ModElement {
 		@Override
 		public ItemStack getPickBlock(IBlockState state, RayTraceResult target, World world, BlockPos pos, EntityPlayer player) {
 			return new ItemStack(ItemVatinHand.block, (int) (1));
+		}
+
+		@Override
+		public MapColor getMapColor(IBlockState state, IBlockAccess blockAccess, BlockPos pos) {
+			return MapColor.IRON;
 		}
 
 		@Override
