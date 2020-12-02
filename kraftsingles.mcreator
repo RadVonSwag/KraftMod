@@ -816,6 +816,7 @@
   "language_map": {
     "en_us": {
       "advancements.shinypokemon.title": "Shiny Pokemon",
+      "tile.mozzarella.name": "Mozzarella",
       "tile.vat.name": "Vat",
       "item.cumjar.name": "Cum Jar",
       "tile.cheeseblock.name": "Cheese Block",
@@ -850,6 +851,7 @@
       "item.leadamorlegs.name": "Lead Leggings",
       "item.leadingot.name": "Lead Ingot",
       "item.leadpickaxe.name": "Lead Pickaxe",
+      "advancements.listentonujabesandjackoff.title": "Listen To Nujabes And Jack Off",
       "item.record.niggerzbop.desc": "The Classic Hit, Niggerz Bop",
       "item.leadsword.name": "Lead Sword",
       "item.leadamorhelmet.name": "Lead Helmet",
@@ -857,6 +859,7 @@
       "item.leadhoe.name": "Lead Hoe",
       "tile.velveetacheese.name": "Velveeta Cheese",
       "item.amiibo.name": "Amiibo",
+      "advancements.listentonujabesandjackoff.descr": "You did Andrew\u0027s favorite passtime",
       "item.cheesegrater.name": "Cheese Grater"
     }
   },

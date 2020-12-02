@@ -1,8 +1,17 @@
 package net.mcreator.kraftsingles.procedure;
 
+import net.minecraft.world.World;
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.item.EntityXPOrb;
+import net.minecraft.entity.item.EntityItem;
+
+import net.mcreator.kraftsingles.item.ItemUnrefinedCheese;
+import net.mcreator.kraftsingles.ElementsKraftSingles;
+
+import java.util.Random;
+
 @ElementsKraftSingles.ModElement.Tag
 public class ProcedureDropCheese extends ElementsKraftSingles.ModElement {
-
 	public ProcedureDropCheese(ElementsKraftSingles instance) {
 		super(instance, 69);
 	}
@@ -24,12 +33,10 @@ public class ProcedureDropCheese extends ElementsKraftSingles.ModElement {
 			System.err.println("Failed to load dependency world for procedure DropCheese!");
 			return;
 		}
-
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-
 		double Random = 0;
 		Random = (double) Math.random();
 		if (((Random) <= 0.25)) {
@@ -79,7 +86,5 @@ public class ProcedureDropCheese extends ElementsKraftSingles.ModElement {
 				}
 			}
 		}
-
 	}
-
 }
