@@ -29,13 +29,13 @@ public class ItemCheeseStonePickaxe extends ElementsKraftSingles.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("CHEESEPICKAXE", 2, 200, 8f, 3f, 25)) {
+		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("CHEESEPICKAXE", 3, 3524, 12f, 4f, 20)) {
 			{
 				this.attackSpeed = -2.7999999999999998f;
 			}
 			public Set<String> getToolClasses(ItemStack stack) {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
-				ret.put("pickaxe", 2);
+				ret.put("pickaxe", 3);
 				return ret.keySet();
 			}
 		}.setUnlocalizedName("cheesepickaxe").setRegistryName("cheesepickaxe").setCreativeTab(TabKraftSingles.tab));

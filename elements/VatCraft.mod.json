@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LeadIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LeadIngot"
+      },
+      {
+        "value": "CUSTOM:LeadIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LeadIngot"
+      },
+      {
+        "value": "CUSTOM:LeadIngot"
+      },
+      {
+        "value": "CUSTOM:LeadIngot"
+      },
+      {
+        "value": "CUSTOM:LeadIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:VatinHand"
+    },
+    "name": "vatcraft",
+    "namespace": "mod"
+  }
+}

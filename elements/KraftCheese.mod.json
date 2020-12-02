@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "test_cheems",
+    "texture": "thesingle",
     "customModelName": "Normal",
     "name": "Kraft Cheese",
     "creativeTab": {

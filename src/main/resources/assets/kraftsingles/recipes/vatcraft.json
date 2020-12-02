@@ -1,0 +1,36 @@
+{
+  "group": "kraftsingles",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "kraftsingles:leadingot"
+    },
+    "2": {
+      "item": "kraftsingles:leadingot"
+    },
+    "3": {
+      "item": "kraftsingles:leadingot"
+    },
+    "5": {
+      "item": "kraftsingles:leadingot"
+    },
+    "6": {
+      "item": "kraftsingles:leadingot"
+    },
+    "7": {
+      "item": "kraftsingles:leadingot"
+    },
+    "8": {
+      "item": "kraftsingles:leadingot"
+    }
+  },
+  "result": {
+    "item": "kraftsingles:vatinhand",
+    "count": 1
+  }
+}
