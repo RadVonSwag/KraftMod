@@ -14,6 +14,7 @@ import net.minecraft.client.Minecraft;
 public class KraftSinglesVariables {
 	public static class MapVariables extends WorldSavedData {
 		public static final String DATA_NAME = "kraftsingles_mapvars";
+		public double placeStack = 0;
 		public MapVariables() {
 			super(DATA_NAME);
 		}
@@ -24,10 +25,12 @@ public class KraftSinglesVariables {
 
 		@Override
 		public void readFromNBT(NBTTagCompound nbt) {
+			placeStack = nbt.getDouble("placeStack");
 		}
 
 		@Override
 		public NBTTagCompound writeToNBT(NBTTagCompound nbt) {
+			nbt.setDouble("placeStack", placeStack);
 			return nbt;
 		}
 

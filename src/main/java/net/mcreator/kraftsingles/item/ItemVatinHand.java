@@ -75,6 +75,7 @@ public class ItemVatinHand extends ElementsKraftSingles.ModElement {
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);
+				$_dependencies.put("world", world);
 				ProcedureTestVatIdea.executeProcedure($_dependencies);
 			}
 			return retval;
