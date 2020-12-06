@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "leadingsword",
+    "texture": "mozzysword",
     "customModelName": "Normal",
     "name": "Cheese Sword",
     "creativeTab": {
