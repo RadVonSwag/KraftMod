@@ -22,9 +22,6 @@
       {
         "value": "CUSTOM:LeadIngot"
       }
-    ],
-    "onRightClickedOnBlock": {
-      "name": "TestVatIdea"
-    }
+    ]
   }
 }
