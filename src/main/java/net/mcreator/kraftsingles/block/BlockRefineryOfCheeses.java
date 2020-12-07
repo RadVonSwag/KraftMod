@@ -9,6 +9,7 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 
 import net.minecraft.world.World;
+import net.minecraft.world.IBlockAccess;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.NonNullList;
 import net.minecraft.util.EnumHand;
@@ -66,14 +67,20 @@ public class BlockRefineryOfCheeses extends ElementsKraftSingles.ModElement {
 	}
 	public static class BlockCustom extends Block implements ITileEntityProvider {
 		public BlockCustom() {
-			super(Material.ROCK);
+			super(Material.IRON);
 			setUnlocalizedName("refineryofcheeses");
-			setSoundType(SoundType.STONE);
+			setSoundType(SoundType.METAL);
+			setHarvestLevel("pickaxe", 2);
 			setHardness(2F);
 			setResistance(10F);
 			setLightLevel(0F);
 			setLightOpacity(255);
 			setCreativeTab(TabKraftSingles.tab);
+		}
+
+		@Override
+		public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
+			drops.add(new ItemStack(BlockRefineryOfCheeses.block, (int) (1)));
 		}
 
 		@Override

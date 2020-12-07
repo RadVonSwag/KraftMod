@@ -34,5 +34,23 @@
         "stream": false
       }
     ]
+  },
+  "goyim": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kraftsingles:goyim",
+        "stream": false
+      }
+    ]
+  },
+  "gdppercapita": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kraftsingles:gdperpcapita",
+        "stream": false
+      }
+    ]
   }
 }

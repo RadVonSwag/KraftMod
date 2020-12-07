@@ -1,7 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "kraftsingles:blocks/metal",
-    "particle": "kraftsingles:blocks/metal"
+    "down": "kraftsingles:blocks/kraftrefinerybottom",
+    "up": "kraftsingles:blocks/kraftrefinerytop",
+    "north": "kraftsingles:blocks/kraftrefineryfront",
+    "east": "kraftsingles:blocks/kraftrefineryleft",
+    "south": "kraftsingles:blocks/kraftrefineryback",
+    "west": "kraftsingles:blocks/kraftrefineryright",
+    "particle": "kraftsingles:blocks/kraftrefinerybottom"
   }
 }
