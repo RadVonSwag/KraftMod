@@ -65,6 +65,16 @@ public class ElementsKraftSingles implements IFuelHandler, IWorldGenerator {
 		sounds.put(new ResourceLocation("kraftsingles", "nujabespt5"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("kraftsingles", "nujabespt5")));
 		sounds.put(new ResourceLocation("kraftsingles", "goyim"), new net.minecraft.util.SoundEvent(new ResourceLocation("kraftsingles", "goyim")));
+		sounds.put(new ResourceLocation("kraftsingles", "guts"), new net.minecraft.util.SoundEvent(new ResourceLocation("kraftsingles", "guts")));
+		sounds.put(new ResourceLocation("kraftsingles", "gaybed"), new net.minecraft.util.SoundEvent(new ResourceLocation("kraftsingles", "gaybed")));
+		sounds.put(new ResourceLocation("kraftsingles", "inperilallfortheloveofyou"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("kraftsingles", "inperilallfortheloveofyou")));
+		sounds.put(new ResourceLocation("kraftsingles", "he-ruined-women"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("kraftsingles", "he-ruined-women")));
+		sounds.put(new ResourceLocation("kraftsingles", "shadow-the-hedgehog"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("kraftsingles", "shadow-the-hedgehog")));
+		sounds.put(new ResourceLocation("kraftsingles", "megalovania"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("kraftsingles", "megalovania")));
 		sounds.put(new ResourceLocation("kraftsingles", "gdppercapita"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("kraftsingles", "gdppercapita")));
 	}

@@ -44,6 +44,60 @@
       }
     ]
   },
+  "guts": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kraftsingles:erserk__-_04_uts",
+        "stream": false
+      }
+    ]
+  },
+  "gaybed": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kraftsingles:aybed",
+        "stream": false
+      }
+    ]
+  },
+  "inperilallfortheloveofyou": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kraftsingles:n_eril_ll_for_the_ove_of_ou",
+        "stream": false
+      }
+    ]
+  },
+  "he-ruined-women": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kraftsingles:cott_ilgrim_uined_omen",
+        "stream": false
+      }
+    ]
+  },
+  "shadow-the-hedgehog": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kraftsingles:hadow_the_edgehog_ho__m",
+        "stream": false
+      }
+    ]
+  },
+  "megalovania": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kraftsingles:ndertale_-_egalovania",
+        "stream": false
+      }
+    ]
+  },
   "gdppercapita": {
     "category": "master",
     "sounds": [

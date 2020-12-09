@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "miibo_ottle_too_far_gone",
+    "name": "Scott Pilgrim Ruined Women",
+    "description": "He really did",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:he-ruined-women"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

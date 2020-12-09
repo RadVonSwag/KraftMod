@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "cheesycheese",
+    "name": "Megalovania",
+    "description": "Megalovania",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:megalovania"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}
