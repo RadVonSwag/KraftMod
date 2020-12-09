@@ -115,5 +115,14 @@
         "stream": false
       }
     ]
+  },
+  "out-of-touch": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kraftsingles:out_of_touch",
+        "stream": false
+      }
+    ]
   }
 }

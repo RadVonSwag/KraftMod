@@ -967,6 +967,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "OutOfTouch",
+      "type": "musicdisc",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -1042,6 +1050,11 @@
       "name": "push-button-sound",
       "file": "push-button-sound",
       "category": "master"
+    },
+    {
+      "name": "out-of-touch",
+      "file": "out_of_touch",
+      "category": "master"
     }
   ],
   "language_map": {
@@ -1054,8 +1067,8 @@
       "item.cumjar.name": "Cum Jar",
       "item.record.nujabes.desc": "Everything is quiet",
       "item.cheesearmorhelmet.name": "Cheese Helmet",
-      "item.leadshovel.name": "Lead Shovel",
       "item.gutstheme.name": "Guts Theme",
+      "item.leadshovel.name": "Lead Shovel",
       "itemGroup.tabkraftsingles": "Kraft Singles",
       "item.milkslime.name": "Milk Slime",
       "item.cheesepickaxe.name": "Cheese Pickaxe",
@@ -1071,6 +1084,7 @@
       "item.record.curseddisc.desc": "Evil Powers",
       "item.record.gutstheme.desc": "For long thoughts",
       "item.record.inperilallfortheloveofyou.desc": "NIGHTMARE NIGHTMARE NIGHTMARE",
+      "item.outoftouch.name": "Out of Touch",
       "tile.cheesystone.name": "Cheesy Stone",
       "item.cheeseworld.name": "Cheese World Portal Igniter",
       "item.curseddisc.name": "Cursed Disc",
@@ -1081,6 +1095,7 @@
       "item.leadsword.name": "Lead Sword",
       "item.leadamorhelmet.name": "Lead Helmet",
       "key.mcreator.sound": "Say The N word",
+      "item.record.outoftouch.desc": "Out of Time",
       "item.leadamorboots.name": "Lead Boots",
       "item.cheesegrater.name": "Cheese Grater",
       "tile.cheeseblock.name": "Cheese Block",
