@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "kraftsingles:refineryofcheeses"
+    },
+    "title": {
+      "translate": "advancements.forgeoftruekings.title"
+    },
+    "description": {
+      "translate": "advancements.forgeoftruekings.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "forgeoftruekings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kraftsingles:refineryofcheeses",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "kraftsingles:adifferentkindofcheese"
+}

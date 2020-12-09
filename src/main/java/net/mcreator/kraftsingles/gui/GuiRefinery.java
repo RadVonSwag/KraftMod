@@ -447,6 +447,7 @@ public class GuiRefinery extends ElementsKraftSingles.ModElement {
 		if (slotID == 0 && changeType == 0) {
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
@@ -457,6 +458,7 @@ public class GuiRefinery extends ElementsKraftSingles.ModElement {
 		if (slotID == 1 && changeType == 0) {
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
@@ -467,6 +469,7 @@ public class GuiRefinery extends ElementsKraftSingles.ModElement {
 		if (slotID == 2 && changeType == 0) {
 			{
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				$_dependencies.put("entity", entity);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);

@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "kraftsingles:cheeserock"
+    },
+    "title": {
+      "translate": "advancements.wastelandofcheese.title"
+    },
+    "description": {
+      "translate": "advancements.wastelandofcheese.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "wastelandofcheese": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "kraftsingles:cheeseworld"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "kraftsingles:cumslut"
+}

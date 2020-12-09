@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "kraftsingles:cheesearmorhelmet"
+    },
+    "title": {
+      "translate": "advancements.ultimatearmory.title"
+    },
+    "description": {
+      "translate": "advancements.ultimatearmory.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ultimatearmory": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 25
+  },
+  "parent": "kraftsingles:justacheesyguy"
+}

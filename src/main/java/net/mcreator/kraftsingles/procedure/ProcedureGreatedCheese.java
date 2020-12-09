@@ -6,8 +6,6 @@ import net.minecraft.tileentity.TileEntityLockableLoot;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.init.Items;
-import net.minecraft.init.Enchantments;
-import net.minecraft.enchantment.EnchantmentHelper;
 
 import net.mcreator.kraftsingles.item.ItemUnrefinedCheese;
 import net.mcreator.kraftsingles.item.ItemKraftCheese;
@@ -79,51 +77,14 @@ public class ProcedureGreatedCheese extends ElementsKraftSingles.ModElement {
 								return 0;
 							}
 						}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (1))) >= 3)))) {
-			if (((EnchantmentHelper.getEnchantmentLevel(Enchantments.UNBREAKING, (new Object() {
-				public ItemStack getItemStack(BlockPos pos, int sltid) {
-					TileEntity inv = world.getTileEntity(pos);
-					if (inv instanceof TileEntityLockableLoot)
-						return ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))))) == 0)) {
-				{
-					TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
-					if (inv != null && (inv instanceof TileEntityLockableLoot)) {
-						ItemStack stack = ((TileEntityLockableLoot) inv).getStackInSlot((int) (2));
-						if (stack != null) {
-							if (stack.attemptDamageItem((int) 8, new Random(), null)) {
-								stack.shrink(1);
-								stack.setItemDamage(0);
-							}
-						}
-					}
-				}
-			} else if (((EnchantmentHelper.getEnchantmentLevel(Enchantments.UNBREAKING, (new Object() {
-				public ItemStack getItemStack(BlockPos pos, int sltid) {
-					TileEntity inv = world.getTileEntity(pos);
-					if (inv instanceof TileEntityLockableLoot)
-						return ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
-					return ItemStack.EMPTY;
-				}
-			}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))))) > 0)) {
-				{
-					TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
-					if (inv != null && (inv instanceof TileEntityLockableLoot)) {
-						ItemStack stack = ((TileEntityLockableLoot) inv).getStackInSlot((int) (2));
-						if (stack != null) {
-							if (stack
-									.attemptDamageItem((int) (8 / (2 * (EnchantmentHelper.getEnchantmentLevel(Enchantments.UNBREAKING, (new Object() {
-										public ItemStack getItemStack(BlockPos pos, int sltid) {
-											TileEntity inv = world.getTileEntity(pos);
-											if (inv instanceof TileEntityLockableLoot)
-												return ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
-											return ItemStack.EMPTY;
-										}
-									}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (2))))))), new Random(), null)) {
-								stack.shrink(1);
-								stack.setItemDamage(0);
-							}
+			{
+				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
+				if (inv != null && (inv instanceof TileEntityLockableLoot)) {
+					ItemStack stack = ((TileEntityLockableLoot) inv).getStackInSlot((int) (2));
+					if (stack != null) {
+						if (stack.attemptDamageItem((int) 8, new Random(), null)) {
+							stack.shrink(1);
+							stack.setItemDamage(0);
 						}
 					}
 				}

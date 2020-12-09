@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "kraftsingles:unrefinedcheese"
+    },
+    "title": {
+      "translate": "advancements.adifferentkindofcheese.title"
+    },
+    "description": {
+      "translate": "advancements.adifferentkindofcheese.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "adifferentkindofcheese": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "kraftsingles:unrefinedcheese",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  },
+  "parent": "kraftsingles:wastelandofcheese"
+}
