@@ -755,6 +755,54 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "SwordOfCheeses",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheeseShoes",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheesePants",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheeseShirt",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheeseHat",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RefineryMaking",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -806,8 +854,8 @@
       "item.cheesearmorhelmet.name": "Cheese Helmet",
       "itemGroup.tabkraftsingles": "Kraft Singles",
       "item.milkslime.name": "Milk Slime",
-      "item.cheesepickaxe.name": "Cheese Pickaxe",
       "tile.refineryofcheeses.name": "Refinery",
+      "item.cheesepickaxe.name": "Cheese Pickaxe",
       "tile.blockoflead.name": "Block Of Lead",
       "item.radiatedcumjar.name": "Radiated Cum Jar",
       "item.leadaxe.name": "Lead Axe",

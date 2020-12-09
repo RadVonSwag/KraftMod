@@ -58,7 +58,7 @@ public class ProcedureGrateCheese extends ElementsKraftSingles.ModElement {
 					return ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
 				return ItemStack.EMPTY;
 			}
-		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(Items.NETHER_STAR, (int) (1)).getItem())
+		}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (0))).getItem() == new ItemStack(Items.DIAMOND, (int) (1)).getItem())
 				&& ((new Object() {
 					public ItemStack getItemStack(BlockPos pos, int sltid) {
 						TileEntity inv = world.getTileEntity(pos);
@@ -91,7 +91,7 @@ public class ProcedureGrateCheese extends ElementsKraftSingles.ModElement {
 								}
 								return 0;
 							}
-						}.getAmount((int) (1))) >= 12)))) {
+						}.getAmount((int) (1))) >= 3)))) {
 			{
 				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (inv != null && (inv instanceof TileEntityLockableLoot)) {
