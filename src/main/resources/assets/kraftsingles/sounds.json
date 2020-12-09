@@ -106,5 +106,14 @@
         "stream": false
       }
     ]
+  },
+  "push-button-sound": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kraftsingles:push-button-sound",
+        "stream": false
+      }
+    ]
   }
 }

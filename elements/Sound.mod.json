@@ -1,0 +1,11 @@
+{
+  "_fv": 6,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "N",
+    "keyBindingName": "Say The N word",
+    "onKeyPressed": {
+      "name": "SoundOnKeyPressed"
+    }
+  }
+}

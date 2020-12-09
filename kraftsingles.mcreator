@@ -931,6 +931,42 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "SoundOnKeyPressed",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sound",
+      "type": "keybind",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -1001,6 +1037,11 @@
       "name": "gdppercapita",
       "file": "gdperpcapita",
       "category": "master"
+    },
+    {
+      "name": "push-button-sound",
+      "file": "push-button-sound",
+      "category": "master"
     }
   ],
   "language_map": {
@@ -1039,6 +1080,7 @@
       "item.record.niggerzbop.desc": "The Classic Hit, Niggerz Bop",
       "item.leadsword.name": "Lead Sword",
       "item.leadamorhelmet.name": "Lead Helmet",
+      "key.mcreator.sound": "Say The N word",
       "item.leadamorboots.name": "Lead Boots",
       "item.cheesegrater.name": "Cheese Grater",
       "tile.cheeseblock.name": "Cheese Block",

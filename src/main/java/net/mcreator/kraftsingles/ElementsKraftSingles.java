@@ -77,6 +77,8 @@ public class ElementsKraftSingles implements IFuelHandler, IWorldGenerator {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("kraftsingles", "megalovania")));
 		sounds.put(new ResourceLocation("kraftsingles", "gdppercapita"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("kraftsingles", "gdppercapita")));
+		sounds.put(new ResourceLocation("kraftsingles", "push-button-sound"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("kraftsingles", "push-button-sound")));
 	}
 
 	public void preInit(FMLPreInitializationEvent event) {
