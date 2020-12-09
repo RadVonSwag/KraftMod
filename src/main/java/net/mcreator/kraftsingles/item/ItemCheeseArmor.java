@@ -33,9 +33,9 @@ public class ItemCheeseArmor extends ElementsKraftSingles.ModElement {
 
 	@Override
 	public void initElements() {
-		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("CHEESEARMOR", "kraftsingles:cheese_", 18, new int[]{2, 5, 6, 2}, 50,
+		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("CHEESEARMOR", "kraftsingles:cheese_", 18, new int[]{5, 8, 12, 5}, 50,
 				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("kraftsingles:cheesewarp")),
-				0f);
+				4f);
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD).setUnlocalizedName("cheesearmorhelmet")
 				.setRegistryName("cheesearmorhelmet").setCreativeTab(TabKraftSingles.tab));
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.CHEST).setUnlocalizedName("cheesearmorbody")

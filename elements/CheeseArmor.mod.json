@@ -33,12 +33,12 @@
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
     "maxDamage": 18,
-    "damageValueHelmet": 2,
-    "damageValueBody": 6,
-    "damageValueLeggings": 5,
-    "damageValueBoots": 2,
+    "damageValueHelmet": 5,
+    "damageValueBody": 12,
+    "damageValueLeggings": 8,
+    "damageValueBoots": 5,
     "enchantability": 50,
-    "toughness": 0.0,
+    "toughness": 4.0,
     "equipSound": {
       "value": "CUSTOM:cheesewarp"
     },
