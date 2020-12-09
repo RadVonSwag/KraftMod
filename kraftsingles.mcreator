@@ -803,6 +803,86 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "CheeseAxe",
+      "type": "tool",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheeseHoe",
+      "type": "tool",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LeadShovel",
+      "type": "tool",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheeseShovel",
+      "type": "tool",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GotLeadInSpades",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GotCheeseInSpades",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AxesOfCheeses",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AxesOfCheeses2",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheesyHoes",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TooCheesyHoes",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -849,13 +929,15 @@
     "en_us": {
       "advancements.shinypokemon.title": "Shiny Pokemon",
       "tile.mozzarella.name": "Mozzarella",
+      "item.cheeseshovel.name": "Cheese Shovel",
       "item.cumjar.name": "Cum Jar",
       "item.record.nujabes.desc": "Everything is quiet",
       "item.cheesearmorhelmet.name": "Cheese Helmet",
+      "item.leadshovel.name": "Lead Shovel",
       "itemGroup.tabkraftsingles": "Kraft Singles",
       "item.milkslime.name": "Milk Slime",
-      "tile.refineryofcheeses.name": "Refinery",
       "item.cheesepickaxe.name": "Cheese Pickaxe",
+      "tile.refineryofcheeses.name": "Refinery",
       "tile.blockoflead.name": "Block Of Lead",
       "item.radiatedcumjar.name": "Radiated Cum Jar",
       "item.leadaxe.name": "Lead Axe",
@@ -882,6 +964,7 @@
       "item.cheesearmorbody.name": "Cheese Chestplate",
       "tile.cheesyore.name": "Cheesy Ore",
       "item.unrefinedcheese.name": "Unrefined Cheese",
+      "item.cheeseaxe.name": "Cheese Axe",
       "tile.cheeserock.name": "Cheese Rock",
       "item.amiiboincum.name": "Amiibo In Cum",
       "item.cheesearmorboots.name": "Cheese Boots",
@@ -892,6 +975,7 @@
       "item.amiiboinajar.name": "Amiibo In A Jar",
       "tile.mozarellaplanks.name": "Mozarella Planks",
       "advancements.shinypokemon.descr": "Get the 1 in 8192 chance cum load",
+      "item.cheesehoe.name": "Cheese Hoe",
       "item.leadpickaxe.name": "Lead Pickaxe",
       "item.leadingot.name": "Lead Ingot",
       "item.leadhoe.name": "Lead Hoe",

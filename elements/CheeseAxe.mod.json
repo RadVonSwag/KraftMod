@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "axe_lead",
+    "customModelName": "Normal",
+    "name": "Cheese Axe",
+    "creativeTab": {
+      "value": "CUSTOM:KraftSingles"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 2,
+    "efficiency": 16.0,
+    "attackSpeed": 1.0,
+    "enchantability": 50,
+    "damageVsEntity": 22.0,
+    "usageCount": 3524,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:KraftCheese"
+      }
+    ]
+  }
+}
