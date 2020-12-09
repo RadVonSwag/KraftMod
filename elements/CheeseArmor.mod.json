@@ -1,0 +1,51 @@
+{
+  "_fv": 6,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "cheese_helmet",
+    "enableBody": true,
+    "textureBody": "cheese_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "cheese_leggings",
+    "enableBoots": true,
+    "textureBoots": "heese_boots",
+    "creativeTab": {
+      "value": "CUSTOM:KraftSingles"
+    },
+    "armorTextureFile": "cheese_",
+    "helmetName": "Cheese Helmet",
+    "bodyName": "Cheese Chestplate",
+    "leggingsName": "Cheese Leggings",
+    "bootsName": "Cheese Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 18,
+    "damageValueHelmet": 2,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 50,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": "CUSTOM:cheesewarp"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:KraftCheese"
+      }
+    ]
+  }
+}

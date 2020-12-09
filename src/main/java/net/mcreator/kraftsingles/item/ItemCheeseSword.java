@@ -34,7 +34,7 @@ public class ItemCheeseSword extends ElementsKraftSingles.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("CHEESESWORD", 1, 3524, 4f, 6f, 20)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("CHEESESWORD", 1, 8524, 4f, 14f, 50)) {
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);
