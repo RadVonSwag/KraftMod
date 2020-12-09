@@ -22,7 +22,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.client.settings.KeyBinding;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.kraftsingles.procedure.ProcedureSoundOnKeyPressed;
+import net.mcreator.kraftsingles.procedure.ProcedureSounding;
 import net.mcreator.kraftsingles.KraftSingles;
 import net.mcreator.kraftsingles.ElementsKraftSingles;
 
@@ -90,7 +90,7 @@ public class KeyBindingSound extends ElementsKraftSingles.ModElement {
 			$_dependencies.put("y", y);
 			$_dependencies.put("z", z);
 			$_dependencies.put("world", world);
-			ProcedureSoundOnKeyPressed.executeProcedure($_dependencies);
+			ProcedureSounding.executeProcedure($_dependencies);
 		}
 	}
 }

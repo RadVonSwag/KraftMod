@@ -5,7 +5,7 @@
     "triggerKey": "N",
     "keyBindingName": "Say The N word",
     "onKeyPressed": {
-      "name": "SoundOnKeyPressed"
+      "name": "Sounding"
     }
   }
 }
