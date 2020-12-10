@@ -1007,6 +1007,22 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Sharp",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1099,8 +1115,8 @@
       "item.cumjar.name": "Cum Jar",
       "item.record.nujabes.desc": "Everything is quiet",
       "item.cheesearmorhelmet.name": "Cheese Helmet",
-      "item.gutstheme.name": "Guts Theme",
       "item.leadshovel.name": "Lead Shovel",
+      "item.gutstheme.name": "Guts Theme",
       "itemGroup.tabkraftsingles": "Kraft Singles",
       "item.milkslime.name": "Milk Slime",
       "item.cheesepickaxe.name": "Cheese Pickaxe",
