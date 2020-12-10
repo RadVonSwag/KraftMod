@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "shovel_lead",
+    "customModelName": "Normal",
+    "name": "Lead Shovel",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 1,
+    "efficiency": 5.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 6.0,
+    "usageCount": 202,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:LeadIngot"
+      }
+    ]
+  }
+}

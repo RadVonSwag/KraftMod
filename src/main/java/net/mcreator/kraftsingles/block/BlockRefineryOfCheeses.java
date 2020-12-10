@@ -74,7 +74,7 @@ public class BlockRefineryOfCheeses extends ElementsKraftSingles.ModElement {
 			setHardness(2F);
 			setResistance(10F);
 			setLightLevel(0F);
-			setLightOpacity(255);
+			setLightOpacity(0);
 			setCreativeTab(TabKraftSingles.tab);
 		}
 

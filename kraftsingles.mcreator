@@ -1,8 +1,7 @@
 {
   "id_map": {
     "DIMENSION": 1,
-    "GUI": 1,
-    "ENTITY": 2
+    "GUI": 1
   },
   "mod_elements": [
     {
@@ -740,17 +739,6 @@
       }
     },
     {
-      "name": "Jew",
-      "type": "mob",
-      "sortid": 88,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {
-        "0": 1,
-        "1": 2
-      }
-    },
-    {
       "name": "JewSpawnEgg",
       "type": "item",
       "sortid": 89,
@@ -767,10 +755,6 @@
       "ids": {},
       "metadata": {
         "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
           {
             "name": "x",
             "type": "int"
@@ -821,6 +805,299 @@
           }
         ]
       }
+    },
+    {
+      "name": "Jew",
+      "type": "mob",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1,
+        "1": 2
+      }
+    },
+    {
+      "name": "CheeseAxe",
+      "type": "tool",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AxesOfCheeses2",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheesePants",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Sharp",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GrilledCheese",
+      "type": "food",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GotCheeseInSpades",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheeseHoe",
+      "type": "tool",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Megalovania",
+      "type": "musicdisc",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheeseShovel",
+      "type": "tool",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheesyHoes",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "InPerilAllForTheLoveOfYou",
+      "type": "musicdisc",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheeseArmor",
+      "type": "armor",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "LeadShovel",
+      "type": "tool",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SwordOfCheeses",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ScottPilgrimRuinedWomen",
+      "type": "musicdisc",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Sound",
+      "type": "keybind",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Sounding",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CheeseInBread",
+      "type": "item",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheeseShirt",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MakingSanguidtch",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheeseHat",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "AxesOfCheeses",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GotLeadInSpades",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GaybedFreestyle",
+      "type": "musicdisc",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ShadowTheHedgehogMusic",
+      "type": "musicdisc",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GutsTheme",
+      "type": "musicdisc",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RefineryMaking",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "GrillingCheese",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TooCheesyHoes",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OutOfTouch",
+      "type": "musicdisc",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CheeseShoes",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -861,6 +1138,46 @@
       "name": "gdppercapita",
       "file": "gdperpcapita",
       "category": "master"
+    },
+    {
+      "name": "gaybed",
+      "file": "aybed",
+      "category": "master"
+    },
+    {
+      "name": "out-of-touch",
+      "file": "out_of_touch",
+      "category": "master"
+    },
+    {
+      "name": "shadow-the-hedgehog",
+      "file": "hadow_the_edgehog_ho__m",
+      "category": "master"
+    },
+    {
+      "name": "push-button-sound",
+      "file": "push-button-sound",
+      "category": "master"
+    },
+    {
+      "name": "inperilallfortheloveofyou",
+      "file": "n_eril_ll_for_the_ove_of_ou",
+      "category": "master"
+    },
+    {
+      "name": "guts",
+      "file": "erserk__-_04_uts",
+      "category": "master"
+    },
+    {
+      "name": "he-ruined-women",
+      "file": "cott_ilgrim_uined_omen",
+      "category": "master"
+    },
+    {
+      "name": "megalovania",
+      "file": "ndertale_-_egalovania",
+      "category": "master"
     }
   ],
   "language_map": {
@@ -871,7 +1188,6 @@
       "item.record.nujabes.desc": "Everything is quiet",
       "itemGroup.tabkraftsingles": "Kraft Singles",
       "item.milkslime.name": "Milk Slime",
-      "item.jewspawnegg.name": "Jew Spawn Egg",
       "item.cheesepickaxe.name": "Cheese Pickaxe",
       "tile.refineryofcheeses.name": "Refinery",
       "tile.blockoflead.name": "Block Of Lead",
@@ -897,7 +1213,6 @@
       "item.emptyjar.name": "Empty Jar",
       "item.cheesestick.name": "Cheese Stick",
       "tile.cheesyore.name": "Cheesy Ore",
-      "entity.jew.name": "Jew",
       "item.unrefinedcheese.name": "Unrefined Cheese",
       "tile.cheeserock.name": "Cheese Rock",
       "item.amiiboincum.name": "Amiibo In Cum",

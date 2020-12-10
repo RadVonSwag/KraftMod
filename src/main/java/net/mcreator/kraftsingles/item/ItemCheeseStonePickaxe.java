@@ -29,7 +29,7 @@ public class ItemCheeseStonePickaxe extends ElementsKraftSingles.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("CHEESEPICKAXE", 3, 3524, 12f, 4f, 20)) {
+		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("CHEESEPICKAXE", 3, 3524, 16f, 4f, 50)) {
 			{
 				this.attackSpeed = -2.7999999999999998f;
 			}

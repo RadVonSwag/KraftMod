@@ -1,0 +1,27 @@
+{
+  "group": "kraftsingles",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "kraftsingles:kraftcheese"
+    },
+    "1": {
+      "item": "kraftsingles:kraftcheese"
+    },
+    "3": {
+      "item": "kraftsingles:cheesestick"
+    },
+    "5": {
+      "item": "kraftsingles:cheesestick"
+    }
+  },
+  "result": {
+    "item": "kraftsingles:cheesehoe",
+    "count": 1
+  }
+}

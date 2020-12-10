@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "rokenop",
+    "name": "In Peril All For The Love Of You",
+    "description": "NIGHTMARE NIGHTMARE NIGHTMARE",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:inperilallfortheloveofyou"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

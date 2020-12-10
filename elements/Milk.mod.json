@@ -3,8 +3,8 @@
   "_type": "fluid",
   "definition": {
     "name": "Milk",
-    "textureStill": "milkstill",
-    "textureFlowing": "milkflowing",
+    "textureStill": "ilktilling",
+    "textureFlowing": "ilkingflow",
     "luminosity": 0,
     "density": 1000,
     "viscosity": 1000,

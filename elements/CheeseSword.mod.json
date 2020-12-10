@@ -13,15 +13,18 @@
     "harvestLevel": 1,
     "efficiency": 4.0,
     "attackSpeed": 1.6,
-    "enchantability": 20,
+    "enchantability": 50,
     "damageVsEntity": 10.0,
-    "usageCount": 3524,
+    "usageCount": 8524,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
         "value": "CUSTOM:KraftCheese"
       }
-    ]
+    ],
+    "onItemInUseTick": {
+      "name": "Sharp"
+    }
   }
 }

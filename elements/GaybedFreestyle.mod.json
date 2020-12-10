@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "poopdisc",
+    "name": "Gaybed Freestyle",
+    "description": "The Ultimate Song, Gaybed",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:gaybed"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

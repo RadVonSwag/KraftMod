@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "shadowdisc",
+    "name": "Shadow The Hedgehog Music",
+    "description": "This is who I am",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:shadow-the-hedgehog"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}
