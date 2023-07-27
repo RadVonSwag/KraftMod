@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "kraftsingles:blocks/cheeseblock2",
-    "particle": "kraftsingles:blocks/cheeseblock2"
-  }
-}
