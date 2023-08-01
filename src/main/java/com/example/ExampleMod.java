@@ -17,6 +17,6 @@ public class ExampleMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("I lov poptar t, yes.");
+		LOGGER.info("I lov poptar t yes.");
 	}
 }
